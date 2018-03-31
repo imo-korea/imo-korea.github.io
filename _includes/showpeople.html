@@ -1,0 +1,25 @@
+{% assign  leaders = site.data.leader |where: "year", year |first  %}
+{% if leaders.leader  %}
+  <li><strong>단장:</strong> 
+ {% for s in leaders["leader"] %}
+{%include linkpeople.html name=s.name aff=s.aff %}
+  {% endfor %}
+</li> 
+{% endif %}
+
+
+{% if leaders.deputy  %}
+  <li><strong>부단장:</strong> 
+ {% for s in leaders["deputy"] %}
+{%include linkpeople.html name=s.name aff=s.aff %}
+  {% endfor %}
+</li> 
+{% endif %}
+
+{% if leaders.observer  %}
+  <li><strong>참관인:</strong> 
+ {% for s in leaders["observer"] %}
+{%include linkpeople.html name=s.name aff=s.aff %}
+  {% endfor %}
+</li> 
+{% endif %}

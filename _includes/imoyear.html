@@ -1,0 +1,15 @@
+{% assign year = include.year %}
+  <li>
+  {% assign imo = site.data.imo | where: "year", year | first %}
+  {{ imo.country |default:""}}
+  {{ imo.city | default: ""}}
+  |  <a href="http://www.imo-official.org/year_country_r.aspx?year={{year}}">국가별 랭킹</a>
+  |  <a href="http://www.imo-official.org/year_country_r.aspx?year={{year}}">개인별  랭킹</a>
+  {% if include.website %}
+  |  <a href="{{include.website}}">{{include.website|remove:"http://"|remove:"https://"}}</a>
+  {%endif %}
+  </li>
+  {% if imo.ranking %}
+  <li><strong>한국팀 랭킹:</strong>
+  {{ imo.teams |append:"개" | default: ""}} 참가국 중 {{imo.ranking}}위</li>
+  {% endif %}

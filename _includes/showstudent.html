@@ -1,0 +1,12 @@
+{% include linkpeople.html name=include.korname aff=include.school %}
+<a href="http://www.imo-official.org/participant_r.aspx?id={{include.id}}">{{include.rank}}위 
+  {% case include.award %}
+  {% when "Gold medal" %}(금)
+  {% when "Silver medal" %}(은)
+  {% when "Bronze medal" %}(동)
+  {% when "Honourable mention" %}(장려)
+  {% when "금" %}(금)
+  {% when "은" %}(은)
+  {% when "동" %}(동)
+  {% when "장려" %}(장려)
+  {%endcase%}</a>

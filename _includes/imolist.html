@@ -1,0 +1,57 @@
+{% for i in site.data.imo %}
+<div class="row">
+  <div class="col-3"><strong><a name="{{i.year}}">{{i.year}}년</a></strong></div>
+  <div class="col-4 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
+  <div class="col-5 text-right" ><a href="http://www.imo-official.org/year_country_r.aspx?year={{i.year}}">{{ i.teams |append:"개" | default: ""}} 참가국 중 {{i.ranking}}위</a></div>
+  </div> <!--row for year -->
+
+  <!-- 단장/부단장/참관인 -->
+  {% assign roles = site.data.teacher|where: "year",i.year |  map:"role"|uniq %}
+  {% for r in roles %}
+  {% assign teacher = site.data.teacher | where: "year", i.year | where:"role",r %}
+  <div class="row">
+  <div class="col-2 text-right small"><i>{{r}}</i></div>
+   <div class="col-10">
+     {% for  t in teacher %}
+     {% include linkpeople.html name=t.name aff=t.aff %}
+     {% endfor %}
+   </div>
+   </div>  <!-- row for roles -->
+   {%endfor%}
+   <!-- 학생 -->
+   {% assign students = site.data.imo-korea |where:"year",i.year|sort: "korname" %}
+   {% for s in students %}
+   <div class="row">
+   <div class="col-2 text-right text-nowrap small">대표학생</div>
+   <div class="col-6">{% include linkpeople.html name=s.korname aff=s.school %}
+     <small class="small">(참가년도: {{  site.data.imo-korea | where: "korname", s.korname |map:"year"|sort|array_to_sentence_string: ""}})</small>
+     </div>
+   <div class="col-4 text-right small">
+     
+     <a href="http://www.imo-official.org/participant_r.aspx?id={{s.id}}">{{s.rank}}위 
+     {% case s.award %}
+     {% when "Gold medal" %}(금)
+     {% when "Silver medal" %}(은)
+     {% when "Bronze medal" %}(동)
+     {% when "Honourable mention" %}(장려)
+     {% when "금" %}(금)
+     {% when "은" %}(은)
+     {% when "동" %}(동)
+     {% when "장려" %}(장려)
+     {%endcase%}</a>
+   </div>
+     </div>
+
+     {% for st in site.data.people|where: "name",s.korname %}
+     {% if st.name==s.korname %}
+     <div class="row">
+     <div class="col-8 offset-sm-4 small">
+              {% if st.website %}
+       <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}{%
+       if st %}</a>{%endif%}
+     </div></div>
+     {%endif %}
+     {%endfor%}
+
+   {%endfor %}
+{% endfor %}

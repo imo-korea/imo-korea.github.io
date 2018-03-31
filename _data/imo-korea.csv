@@ -1,0 +1,181 @@
+year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,problem6,total,rank,award,id
+2017,Jeonghyun,Ahn,안정현,서울과학고,7,7,1,7,0,7,29,7,Gold medal,27726
+2017,Seungyoon,Baek,백승윤,서울과학고,7,4,0,7,7,2,27,29,Gold medal,27725
+2017,Kyu Hyeon,Choi,최규현,서울과학고,7,7,0,7,7,0,28,14,Gold medal,27728
+2017,Dain,Kim,김다인,서울과학고,7,7,0,7,7,1,29,7,Gold medal,27724
+2017,Sehun,Kim,김세훈,서울과학고,7,7,0,7,1,7,29,7,Gold medal,27723
+2017,Songun,Lee,이송운,서울과학고,7,7,0,7,0,7,28,14,Gold medal,27727
+2016,Seungyoon,Baek,백승윤,서울과학고,7,7,1,7,1,2,25,78,Silver medal,26750
+2016,Jaewon,Choi,최재원,서울과학고,7,7,7,7,7,7,42,1,Gold medal,26760
+2016,Eui Cheon,Hong,홍의천,세종과학고,7,7,7,7,7,7,42,1,Gold medal,26761
+2016,Junghun,Ju,주정훈,서울과학고,7,7,7,7,7,7,42,1,Gold medal,26759
+2016,Sehun,Kim,김세훈,서울과학고,7,6,1,7,7,3,31,23,Gold medal,26749
+2016,Youseong,Lee,이유성,서울과학고,7,7,0,7,4,0,25,78,Silver medal,26758
+2015,Jaewon,Choi,최재원,서울과학고,7,0,7,7,3,3,27,32,Gold medal,25960
+2015,Junghun,Ju,주정훈,서울과학고,7,5,7,7,7,7,40,3,Gold medal,25947
+2015,Chaewon,Kim,김채원,서울과학고,7,2,1,7,1,0,18,140,Bronze medal,25944
+2015,Jaehyung,Kim,김재형,서울과학고,7,7,1,7,7,6,35,5,Gold medal,25932
+2015,Sehun,Kim,김세훈,서울과학고,7,1,1,7,6,1,23,58,Silver medal,25930
+2015,Youseong,Lee,이유성,서울과학고,7,0,1,7,1,2,18,140,Bronze medal,25946
+2014,Hong-Kwon,Jo,조홍권,서울과학고,7,7,0,7,7,0,28,50,Silver medal,24887
+2014,Dong Ryul,Kim,김동률,서울과학고,7,7,7,7,3,7,38,7,Gold medal,24527
+2014,Jaehyung,Kim,김재형,서울과학고,7,1,0,7,7,2,24,102,Silver medal,24883
+2014,Minhyuk,Kim,김민혁,서울과학고,7,7,7,7,2,0,30,36,Gold medal,24882
+2014,San Ha,Lee,이산하,서울과학고,7,0,7,7,7,0,28,50,Silver medal,24886
+2014,Young Keun,Song,송유근,서울과학고,7,7,2,7,1,0,24,102,Silver medal,24884
+2013,Eunsoo,Jee,지은수,서울과학고,7,6,7,7,7,7,41,1,Gold medal,23249
+2013,Se Hyun,Ji,지세현,서울과학고,7,7,3,7,7,1,32,30,Gold medal,23247
+2013,Seungyeon,Kang,강승연,서울과학고,7,4,7,7,1,0,26,110,Silver medal,23245
+2013,Dong Ryul,Kim,김동률,서울과학고,7,7,3,7,7,7,38,5,Gold medal,23185
+2013,Jongwon,Lee,이종원,민족사관고,7,7,0,7,7,4,32,30,Gold medal,23244
+2013,Sung Jin,Park,박성진,서울과학고,7,7,6,7,7,1,35,10,Gold medal,23186
+2012,Jaewon,Chang,장재원,서울과학고,7,7,4,6,7,7,38,4,Gold medal,21799
+2012,Dong Hyo,Kim,김동효,서울과학고,7,7,3,7,7,0,31,24,Gold medal,21803
+2012,Dong Ryul,Kim,김동률,서울과학고,7,7,7,5,7,7,40,2,Gold medal,21802
+2012,Hanwool,Moon,문한울,세종과학고,7,7,4,7,7,4,36,9,Gold medal,21805
+2012,Sung Jin,Park,박성진,서울과학고,7,7,3,7,7,3,34,15,Gold medal,21806
+2012,Tae Hwan,Park,박태환,서울과학고,7,7,0,7,7,2,30,27,Gold medal,21807
+2011,Young Jin,Bae,배영진,서울과학고,7,1,1,2,1,0,12,321,Honourable mention,20952
+2011,Jaewon,Chang,장재원,서울과학고,7,2,7,7,7,2,32,13,Gold medal,20960
+2011,Jun Oh,Park,박준오,서울과학고,7,1,0,7,7,1,23,83,Silver medal,20951
+2011,Sung Gi,Park,박성기,서울과학고,7,1,7,7,7,1,30,14,Gold medal,20936
+2011,Sungseob,Whang,황승섭,서울과학고,7,1,2,7,7,0,24,74,Silver medal,20961
+2011,Joon-Hyeok,Yim,임준혁,서울과학고,7,1,7,0,7,1,23,83,Silver medal,20957
+2010,Junhwa,Jung,정준화,서울과학고,7,7,7,7,0,0,28,27,Gold medal,19694
+2010,Bumsoo,Kim,김범수,민족사관고,7,7,1,7,0,6,28,27,Gold medal,19695
+2010,Sang Hoon,Lee,이상훈,서울과학고,7,7,7,7,0,0,28,27,Gold medal,19698
+2010,Sung Gi,Park,박성기,서울과학고,7,7,1,7,0,0,22,76,Silver medal,19696
+2010,Sanghun,Song,송상훈,서울과학고,7,7,7,7,0,0,28,27,Gold medal,19697
+2010,Joon-Hyeok,Yim,임준혁,서울과학고,7,7,1,7,0,0,22,76,Silver medal,19699
+2009,Tae Joo,Ahn,안태주,서울과학고,7,7,1,7,7,0,29,62,Silver medal,18916
+2009,Hyun Sub,Hwang,황현섭,세종과학고,7,7,7,6,7,0,34,27,Gold medal,18919
+2009,Tae Gu,Kang,강태구,서울과학고,7,7,5,7,7,0,33,37,Gold medal,18914
+2009,Sang Hoon,Lee,이상훈,서울과학고,7,7,7,7,7,0,35,14,Gold medal,18917
+2009,Sunkyu,Lim,임선규,경기과학고,7,7,1,7,7,0,29,62,Silver medal,18918
+2009,Young Wook,Lyoo,류영욱,서울과학고,7,7,1,6,7,0,28,83,Silver medal,18915
+2008,Man Wong,Han,한만웅,민족사관고,7,7,0,7,7,2,30,48,Silver medal,17737
+2008,Soo Hong,Lee,이수홍,중앙고,6,7,7,7,7,0,34,29,Gold medal,17734
+2008,Dong Gyu,Lim,임동규,경기과학고,7,7,7,7,7,0,35,12,Gold medal,17735
+2008,Sunkyu,Lim,임선규,경기과학고,7,7,2,7,0,0,23,116,Silver medal,17736
+2008,Kyeong Sik,Nam,남경식,서울과학고,7,7,7,7,7,0,35,12,Gold medal,17732
+2008,Gyu Jin,Oh,오규진,한국과학영재학교,7,7,3,7,7,0,31,43,Gold medal,17543
+2007,Whan,Ghang,강환,한성과학고,7,7,4,7,7,0,32,7,Gold medal,15626
+2007,Yoon Joo,Kim,김윤주,서울과학고,3,7,0,7,7,0,24,68,Silver medal,15630
+2007,Seok Hyeong,Lee,이석형,서울과학고,7,7,3,7,1,1,26,60,Silver medal,15625
+2007,Soo Hong,Lee,이수홍,중앙고,7,7,0,7,7,0,28,40,Silver medal,15628
+2007,Jeong Soo,Sim,심정수,서울과학고,7,6,0,7,7,0,27,55,Silver medal,15629
+2007,Jeha,Yang,양제하,서울과학고,7,7,2,7,7,1,31,12,Gold medal,15627
+2006,In Hwan,Choi,최인한,서울과학고,7,1,1,7,7,6,29,21,Gold medal,8841
+2006,Whan,Ghang,강환,한성과학고,7,1,7,7,6,0,28,27,Gold medal,8850
+2006,Seok Hyeong,Lee,이석형,서울과학고,7,7,7,7,7,0,35,6,Gold medal,8826
+2006,Ju Gang,Nam,남주강,경기과학고,7,7,7,7,1,0,29,21,Gold medal,8840
+2006,Yulhee,Nam,남율희,민족사관고,7,4,7,7,1,0,26,45,Silver medal,8865
+2006,Jeha,Yang,양제하,서울과학고,7,0,1,7,7,1,23,60,Silver medal,8884
+2005,Whan,Ghang,강환,오륜중,2,7,0,7,7,7,30,57,Silver medal,8364
+2005,Won Ho,Jeong,정원호,서울과학고,7,7,6,7,7,2,36,29,Gold medal,8335
+2005,Young Hun,Jung,정영헌,서울과학고,7,7,0,7,7,3,31,53,Silver medal,8359
+2005,Hyungjune,Kang,강형준,서울과학고,0,7,7,7,7,2,30,57,Silver medal,8363
+2005,Ju Gang,Nam,남주강,경기과학고,5,7,7,7,7,3,36,29,Gold medal,8334
+2005,Doo,Sung Park,박두성,경기과학고,7,7,7,7,7,2,37,23,Gold medal,8330
+2004,Se Ik,Jo,조세익,중동고,6,3,1,7,3,2,22,143,Bronze medal,7970
+2004,Young Hun,Jung,정영헌,서울과학고,7,7,4,2,3,0,23,124,Bronze medal,7952
+2004,Sung-Yoon,Kim,김성윤,서울과학고,6,7,4,7,7,1,32,38,Gold medal,7858
+2004,Seung Myung,Lee,이승명,휘문고,7,7,4,7,7,3,35,20,Gold medal,7842
+2004,Yong Sue,Song,송용수,중동고,7,3,1,7,7,4,29,65,Silver medal,7888
+2004,Doo,Sung Park,박두성,경기과학고,6,7,2,7,3,0,25,101,Silver medal,7922
+2003,Kyeong Su,Choi,최경수,유신고,7,7,0,4,1,0,19,98,Silver medal,7465
+2003,Jaehyeok,Heo,허재혁,서울과학고,2,3,0,7,7,2,21,83,Silver medal,7447
+2003,Serin,Hong,홍세린,서울과학고,7,2,0,7,7,1,24,56,Silver medal,7418
+2003,June Hyuk,Jung,정준혁,서울과학고,7,7,0,7,7,7,35,16,Gold medal,7378
+2003,Byoung Hyuck,Kim,김병혁,전북과학고,5,7,0,7,2,7,28,38,Silver medal,7402
+2003,Yeo-Il,Yoon,윤여일,서울과학고,7,7,1,7,7,1,30,26,Gold medal,7388
+2002,Kyeong Su,Choi,최경수,유신고,2,6,1,7,6,3,25,78,Silver medal,6965
+2002,Yeong,Dae Kwon,권영대,전북과학고,6,6,5,7,5,2,31,19,Gold medal,6903
+2002,Rin,Gi Kim,김린기,유성고,6,6,1,7,6,0,26,64,Silver medal,6951
+2002,Hae,Kang Lee,이해강,서울과학고,4,6,1,7,7,1,26,64,Silver medal,6952
+2002,Jooncheol,Min,민준철,광주과학고,7,6,0,7,7,0,27,58,Silver medal,6944
+2002,In,Suk Seo,서인석,서울과학고,6,6,1,7,6,2,28,40,Silver medal,6930
+2001,Joo Yong,Ahn,안주용,인천과학고,7,7,1,7,7,0,29,40,Silver medal,6451
+2001,Yoon Suk,Hyun,현윤석,안양고,7,7,1,7,7,2,31,33,Gold medal,6444
+2001,Young Jun,Jang,장영준,서울과학고,7,7,1,7,7,0,29,40,Silver medal,6452
+2001,Myoung Sup,Kim,김명섭,경기과학고,7,7,1,7,7,7,36,10,Gold medal,6424
+2001,Suk Won,Kim,김석원,서울과학고,7,7,3,7,4,0,28,46,Silver medal,6457
+2001,Suehyun,Kwon,권수현,부산과학고,7,7,2,7,7,2,32,28,Gold medal,6440
+2000,Suh Hyun,Choi,최서현,서울과학고,7,7,2,6,7,2,31,28,Gold medal,5982
+2000,Hong Sik,Kim,김홍식,서울과학고,7,7,2,5,1,5,27,52,Silver medal,6001
+2000,Hyong-Jun,Kim,김형준,경기과학고,7,5,1,0,7,2,22,89,Silver medal,6043
+2000,Seung Hyup,Lee,이승협,서울과학고,7,7,5,3,5,5,32,25,Gold medal,5975
+2000,Young-Han,Park,박영한,경기과학고,7,7,5,4,3,7,33,20,Gold medal,5970
+2000,Choongyup,Sung,성충엽,부산과학고,7,7,0,6,7,0,27,52,Silver medal,6002
+1999,Hyoung-Jun,Ahn,안형준,서울과학고,7,0,7,7,1,0,22,70,Silver medal,5570
+1999,Suh Hyun,Choi,최서현,서울과학고,7,7,4,7,6,3,34,15,Gold medal,5511
+1999,Jerin,Gu,구제린,서울과학고,7,7,1,7,1,0,23,62,Silver medal,5561
+1999,Lin,Han,한린,서울과학고,7,7,4,7,2,4,31,23,Gold medal,5521
+1999,Young-Han,Park,박영한,경기과학고,6,7,4,7,6,1,31,23,Gold medal,5520
+1999,Seung Hyup,Yi,이승협,서울과학고,7,2,0,7,6,1,23,62,Silver medal,5562
+1998,Jerin,Gu,구제린,서울과학고,5,0,2,3,7,0,17,165,Bronze medal,5250
+1998,Lin,Han,한린,서울과학고,7,1,2,7,7,7,31,29,Gold medal,5113
+1998,Young-il,Koh,고영일,서울과학고,4,7,3,5,3,0,22,112,Bronze medal,5193
+1998,Joon-Sung,Lee,이준성,광주과학고,3,0,2,7,7,7,26,73,Silver medal,5157
+1998,Hyun Jung,Park,박현정,경남과학고,3,7,2,6,7,0,25,86,Silver medal,5170
+1998,Se Yong,Park,박세용,경기과학고,7,7,7,7,3,2,33,21,Gold medal,5099
+1997,Bum Sik,Kim,김범식,서울과학고,4,7,1,6,7,0,25,100,Silver medal,4722
+1997,Hyun Ki,Kim,김현기,경기과학고,4,7,0,4,0,0,15,221,Bronze medal,4844
+1997,Young-il,Koh,고영일,서울과학고,7,7,1,4,5,5,29,70,Silver medal,4691
+1997,Yu Seek,Kong,공유식,영동고,7,7,0,5,7,1,27,86,Silver medal,4708
+1997,Ji Oon,Lee,이지운,서울과학고,4,7,7,7,5,0,30,60,Silver medal,4682
+1997,Jee Chul,Woo,우지철,서울과학고,7,7,7,7,7,3,38,15,Gold medal,4635
+1996,Jong,Hwa Shin,신종화,서울과학고,5,1,1,0,1,2,10,216,,4414
+1996,Sung,Jin Yim,임성진,서울과학고,2,1,3,7,0,7,20,94,Silver medal,4289
+1996,Joung,Keun Lim,임정근,부산과학고,4,7,6,0,0,7,24,57,Silver medal,4250
+1996,Yu Seek,Kong,공유식,영동고,4,7,7,7,7,7,39,2,Gold medal,4192
+1996,Jae,Moon Yun,윤재문,대전과학고,2,7,2,1,1,7,20,94,Silver medal,4290
+1996,Sug Woo,Shin,신석우,서울과학고,7,7,7,7,3,7,38,3,Gold medal,4193
+1995,Joung,Keun Lim,임정근,부산과학고,7,7,7,7,0,2,30,82,Silver medal,3865
+1995,Kyung Yong,Lee,이경용,상문고,7,7,5,5,7,3,34,54,Silver medal,3834
+1995,Kyo,Min Jeong,정교민,서울과학고,7,7,7,7,7,2,37,23,Gold medal,3807
+1995,Sug Woo,Shin,신석우,서울과학고,7,7,7,7,7,7,42,1,Gold medal,3787
+1995,Young,Sin Kim,김용신,구정고,7,7,7,7,0,0,28,102,Bronze medal,3885
+1995,Jin,Woo Shin,신진우,서울과학고,7,7,4,6,7,1,32,66,Silver medal,3848
+1994,Chung Kil,Hur,허충길,경남과학고,7,0,7,4,6,0,24,132,Bronze medal,1055
+1994,Da No,Kim,김다노,서울과학고,2,7,7,7,7,0,30,88,Silver medal,1056
+1994,Jin Tae,Kim,김진태,서울과학고,7,7,7,1,3,0,25,126,Bronze medal,1057
+1994,Kyung Yong,Lee,이경용,상문고,1,7,7,7,6,0,28,102,Bronze medal,1058
+1994,Seung Chun,Lee,이승준,서울과학고,7,7,7,7,7,0,35,49,Silver medal,1059
+1994,Sug Woo,Shin,신석우,서울과학고,0,7,7,7,7,0,28,102,Bronze medal,1060
+1993,Sang,Hyun Kim,김상현,서울과학고,7,7,0,1,7,2,24,59,Silver medal,3427
+1993,Da No,Kim,김다노,서울과학고,7,2,0,0,4,0,13,161,Bronze medal,3539
+1993,Eun Soo,Lee,이은수,서울과학고,1,4,0,4,3,7,19,102,Bronze medal,3472
+1993,Joon Hong,Park,박준홍,경문고,7,7,1,2,4,2,23,66,Silver medal,3433
+1993,Han,Saem Yoon,윤한샘,경남과학고,1,7,5,0,7,2,22,73,Silver medal,3443
+1993,Sung,Teak Jung,정성택,부산과학고,1,4,0,1,5,4,15,143,Bronze medal,3513
+1992,Eun Soo,Lee,이은수,서울과학고,7,2,4,6,1,2,22,88,Bronze medal,3104
+1992,Young Su,Lee,이영수,창신고,4,7,0,7,0,0,18,120,Bronze medal,3137
+1992,Jee Woong,Park,박지웅,서울과학고,7,4,0,6,1,2,20,104,Bronze medal,3122
+1992,Jong Won,Park,박종원,서울과학고,7,4,7,7,6,2,33,17,Gold medal,3034
+1992,Joon Hong,Park,박준홍,경문고,6,2,0,5,0,0,13,171,,3197
+1992,Jung Keun,Park,박정근,서울과학고,7,3,0,6,0,0,16,130,Bronze medal,3150
+1991,Byung Hee,Choi,최병희,서울과학고,7,7,3,7,7,7,38,21,Silver medal,2730
+1991,Jae Kyun,Kwon,권재균,대구과학고,7,6,3,7,1,0,24,108,Bronze medal,2817
+1991,Seung Kyun,Lee,이승균,영동고,7,7,3,2,7,0,26,96,Bronze medal,2805
+1991,Jee Woong,Park,박지웅,서울과학고,7,7,0,3,2,4,23,117,Bronze medal,2828
+1991,Jong Won,Park,박종원,서울과학고,7,7,3,7,0,2,26,96,Bronze medal,2806
+1991,Jong Hyun,Shin,신종현,서울과학고,4,0,0,2,7,1,14,186,Honourable mention,2896
+1990,Tae-Jin,Kim,김태진,서울과학고,0,7,1,4,4,1,17,131,Bronze medal,2531
+1990,Bong-Gyun,Koh,고봉균,오현고,0,2,2,1,7,0,12,201,Honourable mention,2605
+1990,Myung,Kwang Byun,변명광,학성고,7,4,0,7,4,2,24,63,Silver medal,2464
+1990,Seung Kyun,Lee,이승균,영동고,3,3,2,3,4,0,15,156,,2560
+1990,Min-Sou,Yi,이민수,영락고,0,0,1,2,1,0,4,295,,2692
+1990,Aakam,Yun,윤아람,서울과학고,0,0,2,3,2,0,7,266,,2669
+1989,Jin-Min,Chung,정진민,경기과학고,0,7,0,1,0,5,13,176,Honourable mention,2015
+1989,Gyu-Wan,Hwang,황규완,경기과학고,6,7,0,7,6,7,33,48,Silver medal,1891
+1989,?,Kim,김복기,한밭고,0,3,0,7,0,2,12,181,Honourable mention,2022
+1989,Dong Hun,Lee,이동훈,청주고,0,0,0,7,0,5,12,181,Honourable mention,2023
+1989,Cho-Hong,Min,민조홍,경기과학고,1,7,0,7,0,2,17,148,Honourable mention,1995
+1989,?,Park,박희진,중동고,4,4,0,1,0,1,10,196,,2038
+1988,Jo Han,Chu,추요한,대전과학고,2,4,0,1,4,0,11,150,,1732
+1988,Bok Gi,Kim,김복기,한밭고,4,0,3,0,7,1,15,113,Bronze medal,1689
+1988,Ki Hong,Kim,김기홍,경주고,4,7,0,0,4,0,15,113,Bronze medal,1690
+1988,Young Hoon,Kim,김영훈,광덕고,7,0,1,6,7,1,22,66,Bronze medal,1639
+1988,Ho Jin,Ryu,류호진,대전과학고,3,0,0,0,2,0,5,214,,1789
+1988,Su Bin,Song,송수빈,대전과학고,3,4,1,0,3,0,11,150,,1733
