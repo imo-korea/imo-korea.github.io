@@ -8,6 +8,6 @@
 {% for p in people %}
 <div class="row">
 <div class="col-2"><a name="{{p}}">{{p}}</a></div>
-<div class="col-10">{%include history.html name=p %}</div>
+<div class="col-10 small">{%include history.html name=p %}</div>
 </div>
   {% endfor %}

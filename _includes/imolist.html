@@ -23,10 +23,10 @@
    {% for s in students %}
    <div class="row">
    <div class="col-2 text-right text-nowrap small">대표학생</div>
-   <div class="col-6">{% include linkpeople.html name=s.korname aff=s.school %}
+   <div class="col-8">{% include linkpeople.html name=s.korname aff=s.school %}
      <small class="small">{%include history.html name=s.korname%}</small>
      </div>
-   <div class="col-4 text-right small">
+   <div class="col-2 text-right small">
      
      <a href="http://www.imo-official.org/participant_r.aspx?id={{s.id}}">{{s.rank}}위 
      {% case s.award %}
@@ -45,7 +45,7 @@
      {% for st in site.data.people|where: "name",s.korname %}
      {% if st.name==s.korname %}
      <div class="row">
-     <div class="col-8 offset-sm-4 small">
+     <div class="col-8 offset-4 small">
               {% if st.website %}
        <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}{%
        if st %}</a>{%endif%}
