@@ -10,4 +10,15 @@
 <div class="col-2"><a name="{{p}}">{{p}}</a></div>
 <div class="col-10 small">{%include history.html name=p %}</div>
 </div>
+     {% for st in site.data.people|where: "name",p %}
+     {% if st.name==p %}
+     <div class="row">
+     <div class="col-11 offset-1 small">
+              {% if st.website %}
+       <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}{%
+       if st %}</a>{%endif%}
+     </div></div>
+     {%endif %}
+     {%endfor%}
+
   {% endfor %}
