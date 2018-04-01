@@ -1,0 +1,13 @@
+{% assign people1 = site.data.imo-korea|map: "korname"%}
+{% assign people2 = site.data.cgmo-korea|map: "korname"%}
+{% assign people3 = site.data.rmm-korea|map: "korname" %}
+{% assign people4 = site.data.teacher |map:"name"%}
+{% assign people5 = site.data.cgmoteacher |map:"name"%}
+{% assign people6 = site.data.rmmteacher |map:"name"%}
+{% assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|compact|sort|uniq %}
+{% for p in people %}
+<div class="row">
+<div class="col-2"><a name="{{p}}">{{p}}</a></div>
+<div class="col-10">{%include history.html name=p %}</div>
+</div>
+  {% endfor %}

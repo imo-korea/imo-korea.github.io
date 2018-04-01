@@ -1,14 +1,13 @@
-{% for i in site.data.imo %}
+{% for i in site.data.cgmo %}
 <div class="row">
-  <div class="col-3"><strong><a name="IMO{{i.year}}">{{i.year}}년</a></strong></div>
-  <div class="col-4 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
-  <div class="col-5 text-right" ><a href="http://www.imo-official.org/year_country_r.aspx?year={{i.year}}">{{ i.teams |append:"개" | default: ""}} 참가국 중 {{i.ranking}}위</a></div>
+  <div class="col-3"><strong><a name="CGMO{{i.year}}">{{i.year}}년</a></strong></div>
+  <div class="col-9 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
   </div> <!--row for year -->
 
   <!-- 단장/부단장/참관인 -->
-  {% assign roles = site.data.teacher|where: "year",i.year |  map:"role"|uniq %}
+  {% assign roles = site.data.cgmoteacher|where: "year",i.year |  map:"role"|uniq %}
   {% for r in roles %}
-  {% assign teacher = site.data.teacher | where: "year", i.year | where:"role",r %}
+  {% assign teacher = site.data.cgmoteacher | where: "year", i.year | where:"role",r %}
   <div class="row">
   <div class="col-2 text-right small"><i>{{r}}</i></div>
    <div class="col-10">
@@ -19,7 +18,7 @@
    </div>  <!-- row for roles -->
    {%endfor%}
    <!-- 학생 -->
-   {% assign students = site.data.imo-korea |where:"year",i.year|sort: "korname" %}
+   {% assign students = site.data.cgmo-korea |where:"year",i.year|sort: "korname" %}
    {% for s in students %}
    <div class="row">
    <div class="col-2 text-right text-nowrap small">대표학생</div>
@@ -27,8 +26,6 @@
      <small class="small">{%include history.html name=s.korname%}</small>
      </div>
    <div class="col-4 text-right small">
-     
-     <a href="http://www.imo-official.org/participant_r.aspx?id={{s.id}}">{{s.rank}}위 
      {% case s.award %}
      {% when "Gold medal" %}(금)
      {% when "Silver medal" %}(은)
@@ -38,7 +35,7 @@
      {% when "은" %}(은)
      {% when "동" %}(동)
      {% when "장려" %}(장려)
-     {%endcase%}</a>
+     {%endcase%}
    </div>
      </div>
 

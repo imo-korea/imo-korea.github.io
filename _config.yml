@@ -5,7 +5,7 @@ encoding: utf-8
 lang: ko-KR
 collections:
   imo:
-    output: true
+    output: false
     permalink: /imo/:name/
     title: :name
   people:
