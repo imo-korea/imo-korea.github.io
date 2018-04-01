@@ -3,25 +3,3 @@ title: 국제수학올림피아드 한국대표팀 기록
 description: 국제수학올림피아드 한국대표팀 기록을 수집 정리합니다.
 encoding: utf-8
 lang: ko-KR
-collections:
-  imo:
-    output: false
-    permalink: /imo/:name/
-    title: :name
-  people:
-    output: false
-    permalink: /people/:name/
-    title: :name
-
-defaults:
-  - scope:
-      path: ""
-      type: "imo"
-    values:
-      layout: imo
-  - scope:
-      path: ""
-      type: "people"
-    values:
-      layout: people
-
