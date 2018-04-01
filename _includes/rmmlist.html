@@ -1,16 +1,17 @@
 {% for i in site.data.rmm %}
-<div class="row">
-  <div class="col-3"><strong><a name="RMM{{i.year}}">{{i.year}}년</a></strong></div>
-  <div class="col-4 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
-  <div class="col-5 text-right" ><a href="http://rmms.lbi.ro/rmm{{i.year}}/index.php?id=results_math">{{ i.teams |append:"개" | default: ""}} 참가팀 중 {{i.ranking}}위</a></div>
+<div class="row alert alert-success">
+  <div class="col-sm-3"><strong><a name="RMM{{i.year}}"
+    href="http://rmms.lbi.ro/rmm{{i.year}}/" target="rmm">{{i.year}}년 {{i.year|minus:2008}}회</a></strong></div>
+  <div class="col-sm-4 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
+  <div class="col-sm-5 text-sm-right" ><a href="http://rmms.lbi.ro/rmm{{i.year}}/index.php?id=results_math">{{ i.teams |append:"개" | default: ""}} 참가팀 중 {{i.ranking}}위</a></div>
   </div> <!--row for year -->
 
   <!-- 단장/부단장/참관인 -->
   {% assign roles = site.data.rmmteacher|where: "year",i.year |  map:"role"|uniq %}
   {% for r in roles %}
   {% assign teacher = site.data.rmmteacher | where: "year", i.year | where:"role",r %}
-  <div class="row">
-  <div class="col-2 text-right small"><i>{{r}}</i></div>
+  <div class="row teacher">
+  <div class="col-sm-2 text-sm-right small"><i>{{r}}</i></div>
    <div class="col-10">
      {% for  t in teacher %}
      {% include linkpeople.html name=t.name aff=t.aff %}
@@ -21,12 +22,13 @@
    <!-- 학생 -->
    {% assign students = site.data.rmm-korea |where:"year",i.year|sort: "korname" %}
    {% for s in students %}
-   <div class="row">
-   <div class="col-2 text-right text-nowrap small">대표학생</div>
-   <div class="col-8">{% include linkpeople.html name=s.korname aff=s.school %}
+   <div class="student">
+   <div class="row student">
+   <div class="col-sm-2 text-sm-right text-nowrap small"><i>대표학생</i></div>
+   <div class="col-sm-8">{% include linkpeople.html name=s.korname aff=s.school %}
      <small class="small">{%include history.html name=s.korname%}</small>
      </div>
-   <div class="col-2 text-right small">
+   <div class="col-sm-2 text-sm-right small">
      
      {{s.rank}}위 
      {% case s.award %}
@@ -45,12 +47,13 @@
      {% for st in site.data.people|where: "name",s.korname %}
      {% if st.name==s.korname %}
      <div class="row">
-     <div class="col-8 offset-4 small">
+     <div class="col-sm-8 offset-sm-4 small">
               {% if st.website %}
        <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}{%
        if st %}</a>{%endif%}
      </div></div>
      {%endif %}
+     </div>
      {%endfor%}
 
    {%endfor %}

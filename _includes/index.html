@@ -6,19 +6,18 @@
 {% assign people6 = site.data.rmmteacher |map:"name"%}
 {% assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|compact|sort|uniq %}
 {% for p in people %}
-<div class="row">
-<div class="col-2"><a name="{{p}}">{{p}}</a></div>
-<div class="col-10 small">{%include history.html name=p %}</div>
-</div>
+<div class="row studentindex">
+<div class="col-sm-2" ><a name="{{p}}" >{{p}}</a></div>
+<div class="col-sm-10 small">{%include history.html name=p %}
      {% for st in site.data.people|where: "name",p %}
      {% if st.name==p %}
-     <div class="row">
-     <div class="col-11 offset-1 small">
+  <br/>
               {% if st.website %}
        <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}{%
        if st %}</a>{%endif%}
-     </div></div>
      {%endif %}
      {%endfor%}
+</div>
+</div>
 
   {% endfor %}
