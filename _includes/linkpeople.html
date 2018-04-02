@@ -1,5 +1,3 @@
 <a href="#{{include.name}}">{{include.name}}</a>
-
-{% if include.aff %}
-<a href="#{{include.aff}}"><small>({{include.aff}})</small></a>
+{% if include.aff %}<a href="#{{include.aff|remove:" "}}"><small>({{include.aff}})</small></a>
 {% endif %}

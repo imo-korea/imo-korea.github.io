@@ -1,6 +1,6 @@
 {% for i in site.data.cgmo %}
-<div class="row  alert alert-info">
-  <div class="col-sm-3"><strong><a name="CGMO{{i.year}}">{{i.year}}년</a></strong></div>
+<div class="row  alert alert-info" id="CGMO{{i.year}}">
+  <div class="col-sm-3"><strong>{{i.year}}년</strong></div>
   <div class="col-sm-9 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
   </div> <!--row for year -->
 
@@ -39,18 +39,16 @@
      {%endcase%}
    </div>
      </div>
-
      {% for st in site.data.people|where: "name",s.korname %}
      {% if st.name==s.korname %}
      <div class="row">
      <div class="col-sm-8 offset-4 small">
-              {% if st.website %}
-       <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}{%
-       if st %}</a>{%endif%}
+              {%- if st.website -%}
+       <a href="{{st.website}}">{%endif%}{{st.aff|strip_html}}
+       {%-       if st.website -%}</a>{%- endif -%}
      </div></div>
      {%endif %}
-     </div>
      {%endfor%}
-
+     </div>
    {%endfor %}
 {% endfor %}

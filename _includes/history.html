@@ -1,32 +1,27 @@
-{% assign name=include.name %}
-{% assign imohistory = site.data.imo-korea | where:"korname",name|map:"year"|sort %}
-{% assign cgmohistory = site.data.cgmo-korea | where:"korname",name|map:"year"|sort %}
-{% assign rmmhistory = site.data.rmm-korea | where:"korname",name|map:"year"|sort %}
-{% assign imoteacher = site.data.teacher | where:"name",name |sort:"year" %}
-{% assign cgmoteacher = site.data.cgmoteacher | where:"name",name|sort:"year" %}
-{% assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" %}
+{%- assign name=include.name -%}
+{%- assign imohistory = site.data.imo-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign cgmohistory = site.data.cgmo-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign rmmhistory = site.data.rmm-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign imoteacher = site.data.teacher | where:"name",name |sort:"year" -%}
+{%- assign cgmoteacher = site.data.cgmoteacher | where:"name",name|sort:"year" -%}
+{%- assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" -%}
 
-{% for y in imohistory %}
+{%- for y in imohistory -%}
 <a href="#IMO{{y}}">IMO{{y}}</a>
 {% endfor %}
-{% for i in imoteacher %}
+{%- for i in imoteacher -%}
 <a href="#IMO{{i.year}}">IMO{{i.year}}{{i.role}}</a>
 {% endfor %}
-
-
-
-{% for y in rmmhistory %}
+{%- for y in rmmhistory -%}
 <a href="#RMM{{y}}">RMM{{y}}</a>
 {% endfor %}
-{% for i in rmmteacher %}
+{%- for i in rmmteacher -%}
 <a href="#RMM{{i.year}}">RMM{{i.year}}{{i.role}}</a>
 {% endfor %}
-
-
-{% for y in cgmohistory %}
+{%- for y in cgmohistory -%}
 <a href="#CGMO{{y}}">CGMO{{y}}</a>
 {% endfor %}
-{% for i in cgmoteacher %}
+{%- for i in cgmoteacher -%}
 <a href="#CGMO{{i.year}}">CGMO{{i.year}}{{i.role}}</a>
 {% endfor %}
 
