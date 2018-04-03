@@ -5,7 +5,7 @@
 {%- for s in sc -%}
 <div class="row schoolindex">
 <div class="col-sm-3 school"  id="{{s|remove:" "}}">{{s}}</div>
-<div class="col-sm-9 small">
+<div class="col-sm-9">
   {%-assign p1=site.data.imo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign p2=site.data.cgmo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign p3=site.data.rmm-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}

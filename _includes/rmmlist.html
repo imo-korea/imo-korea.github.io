@@ -10,7 +10,8 @@
   {%- assign roles = site.data.rmmteacher|where: "year",i.year |  map:"role"|uniq -%}
   {%- for r in roles -%}
   {%- assign teacher = site.data.rmmteacher | where: "year", i.year | where:"role",r -%}
-  <div class="row teacher">
+  <div class="teacher">
+  <div class="row">
   <div class="col-sm-2 text-sm-right role">{{r}}</div>
    <div class="col-10">
      {%- for  t in teacher -%}
@@ -18,6 +19,7 @@
      {%- endfor -%}
    </div>
    </div>  <!-- row for roles -->
+   </div>
    {%-endfor-%}
    <!-- 학생 -->
    {%- assign students = site.data.rmm-korea |where:"year",i.year|sort: "korname" -%}
