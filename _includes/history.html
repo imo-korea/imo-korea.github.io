@@ -7,21 +7,21 @@
 {%- assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" -%}
 
 {%- for y in imohistory -%}
-<a href="#IMO{{y}}">IMO{{y}}</a>
+<a href="#IMO{{y}}" class="history">IMO{{y}}</a>
 {% endfor %}
 {%- for i in imoteacher -%}
-<a href="#IMO{{i.year}}">IMO{{i.year}}{{i.role}}</a>
+<a href="#IMO{{i.year}}" class="history">IMO{{i.year}}{{i.role}}</a>
 {% endfor %}
 {%- for y in rmmhistory -%}
-<a href="#RMM{{y}}">RMM{{y}}</a>
+<a href="#RMM{{y}}" class="history">RMM{{y}}</a>
 {% endfor %}
 {%- for i in rmmteacher -%}
-<a href="#RMM{{i.year}}">RMM{{i.year}}{{i.role}}</a>
+<a href="#RMM{{i.year}}" class="history">RMM{{i.year}}{{i.role}}</a>
 {% endfor %}
 {%- for y in cgmohistory -%}
-<a href="#CGMO{{y}}">CGMO{{y}}</a>
+<a href="#CGMO{{y}}" class="history">CGMO{{y}}</a>
 {% endfor %}
 {%- for i in cgmoteacher -%}
-<a href="#CGMO{{i.year}}">CGMO{{i.year}}{{i.role}}</a>
+<a href="#CGMO{{i.year}}" class="history">CGMO{{i.year}}{{i.role}}</a>
 {% endfor %}
 

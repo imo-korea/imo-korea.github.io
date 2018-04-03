@@ -7,7 +7,7 @@
 {%- assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|compact|sort|uniq -%}
 {%- for p in people -%}
 <div class="row studentindex">
-<div class="col-sm-2" id="{{p}}">{{p}}</div>
+<div class="col-sm-2 name" id="{{p}}">{{p}}</div>
 <div class="col-sm-10 small">{%-include history.html name=p -%}
      {%- for st in site.data.people|where: "name",p -%}
      {%- if st.name==p -%}

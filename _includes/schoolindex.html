@@ -4,7 +4,7 @@
 {%- assign sc= sc1 |concat:sc2 |concat:sc3 | compact|sort|uniq -%}
 {%- for s in sc -%}
 <div class="row schoolindex">
-<div class="col-sm-3" id="{{s|remove:" "}}">{{s}}</div>
+<div class="col-sm-3 school"  id="{{s|remove:" "}}">{{s}}</div>
 <div class="col-sm-9 small">
   {%-assign p1=site.data.imo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign p2=site.data.cgmo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
