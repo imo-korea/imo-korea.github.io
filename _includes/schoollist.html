@@ -1,0 +1,24 @@
+{%assign sclist = site.data.school|where:"season",include.season |sort:"year"%}
+{%-for sc in sclist -%}
+<div class="row alert alert-primary">
+  <div class="col-sm-6" id="{{i.year}}-{{sc.season}}">
+  <strong>제{{sc.no}}기 {{sc.year}}년 {{sc.date}}</strong>
+  </div>
+  <div class="col-sm-6 text-sm-right ">{{sc.location}}</div>
+</div>
+{%- assign rolelist = site.data.schoolteacher|where: "no",sc.no|where:"season",include.season -%}
+{%- assign roles= rolelist| group_by:"role" -%}
+{%- for r in roles -%}
+  <div class="teacher">
+  <div class="row">
+  <div class="col-sm-2 text-sm-right role">{{r.name}}</div>
+  <div class="col-sm-10">
+    {% assign rlist = r.items |sort:"name" %}
+     {%- for  t in rlist -%}
+     {%- include linkpeople.html name=t.name aff=t.aff -%}
+     {%- endfor -%}
+   </div>
+   </div>  <!-- row for roles -->
+   </div>
+   {%-endfor-%}
+{% endfor %}
