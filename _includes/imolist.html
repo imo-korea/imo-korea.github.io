@@ -11,6 +11,9 @@
   <!-- 단장/부단장/참관인 -->
   {%- assign roles = site.data.teacher|where: "year",i.year |  map:"role"|uniq -%}
   {%- for r in roles -%}
+  {%- if r=="후보" -%}
+  {%-continue-%}
+  {%- endif -%}
   {%- assign teacher = site.data.teacher | where: "year", i.year | where:"role",r -%}
   <div class="teacher">
   <div class="row">
@@ -58,5 +61,21 @@
      {%-endif -%}
      {%-endfor-%}
      </div>
-   {%-endfor -%}
+     {%-endfor -%}
+  <!-- 후보 -->
+     {%- assign teacher = site.data.teacher | where: "year", i.year | where:"role", "후보" |sort:"name"-%}
+     {%- assign tc=teacher|first %}
+     {%if tc %}
+  <div class="candidate">
+  <div class="row">
+  <div class="col-sm-2 text-sm-right role">후보</div>
+   <div class="col-sm-10">
+     {%- for  t in teacher -%}
+     {%- include linkpeople.html name=t.name aff=t.aff -%}
+     {%- endfor -%}
+   </div>
+   </div>
+   </div>
+   {%endif%}
+     
 {%- endfor -%}
