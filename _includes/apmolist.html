@@ -1,0 +1,48 @@
+{%- for i in site.data.apmo|sort:"year" -%}
+<div class="row alert alert-success">
+<div class="col-sm-3" id="APMO{{i.year}}">
+  {%- if i.website -%}<a href="{{i.website}}">{%- endif -%}
+  {{i.year}}년 {{i.year|minus:1988}}회
+  {%- if i.website -%}</a>{%- endif -%}
+  </strong></div>
+  <div class="col-sm-4 text-truncate"></div>
+  <div class="col-sm-5 text-sm-right" >
+    {%- if i.website -%}<a href="{{i.website}}">{%- endif -%}
+    {%- if i.ranking -%}{{ i.teams |append:"개" | default: ""}} 참가팀 중 {{i.ranking}}위{%-endif -%}
+    {%- if i.website -%}</a>{%- endif -%}
+</div>
+  </div> <!--row for year -->
+
+   {%- assign students = site.data.apmo-korea |where:"year",i.year -%}
+   {%- for s in students -%}
+   <div class="student">
+   <div class="row">
+   <div class="col-sm-10">{%- include linkpeople.html name=s.korname aff=s.school -%}
+     <small class="small">{%-include history.html link="apmo" name=s.korname-%}</small>
+     </div>
+   <div class="col-sm-2 text-sm-right award">{% if s.rank>0 %}{{s.rank}}위{%endif%}
+     {%- case s.award -%}
+     {%- when "Gold medal" -%}(금)
+     {%- when "Silver medal" -%}(은)
+     {%- when "Bronze medal" -%}(동)
+     {%- when "Honourable mention" -%}(장려)
+     {%- when "금" -%}(금)
+     {%- when "은" -%}(은)
+     {%- when "동" -%}(동)
+     {%- when "장려" -%}(장려)
+     {%-endcase-%}
+   </div>
+     </div>
+
+     {%- assign st=site.data.people|where:"name",s.korname|first-%}
+     {%- if st -%}
+     <div class="row">
+     <div class="col-sm-8 offset-sm-4 small">
+              {%- if st.website -%}
+       <a href="{{st.website}}">{%-endif-%}{{st.aff|strip_html}}{%-
+       if st.website -%}</a>{%-endif-%}
+     </div></div>
+     {%-endif -%}
+     </div>
+   {%-endfor -%}
+{%- endfor -%}

@@ -9,14 +9,13 @@
 <div class="row studentindex">
 <div class="col-sm-2 name" id="{{p}}">{{p}}</div>
 <div class="col-sm-10">{%-include history.html name=p -%}
-     {%- for st in site.data.people|where: "name",p -%}
-     {%- if st.name==p -%}
+     {%- assign st= site.data.people|where: "name",p|first -%}
+     {%- if st -%}
   <br/>
   {%- if st.website -%}
        <a href="{{st.website}}">{%-endif-%}{{st.aff|strip_html}}{%-
        if st.website -%}</a>{%-endif-%}
      {%-endif -%}
-     {%-endfor-%}
 </div>
 </div>
 {%- endfor -%}

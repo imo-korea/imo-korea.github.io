@@ -41,8 +41,8 @@
      {%endcase%}
    </div>
      </div>
-     {% for st in site.data.people|where: "name",s.korname %}
-     {% if st.name==s.korname %}
+     {% assign st =site.data.people|where: "name",s.korname|first %}
+     {% if st %}
      <div class="row">
      <div class="col-sm-8 offset-4 small">
               {%- if st.website -%}
@@ -50,7 +50,6 @@
        {%-       if st.website -%}</a>{%- endif -%}
      </div></div>
      {%endif %}
-     {%endfor%}
      </div>
    {%endfor %}
 {% endfor %}

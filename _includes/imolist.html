@@ -49,8 +49,8 @@
      </div>
      </div>
 
-     {%- for st in site.data.people|where: "name",s.korname -%}
-     {%- if st.name==s.korname -%}
+     {%- assign st =  site.data.people|where: "name",s.korname |first -%}
+     {%- if st -%}
      <div class="row">
        <div class="col-sm-8 offset-sm-4 current">
 	 {%- if st.website -%}
@@ -59,7 +59,6 @@
        </div>
      </div>
      {%-endif -%}
-     {%-endfor-%}
      </div>
      {%-endfor -%}
   <!-- 후보 -->

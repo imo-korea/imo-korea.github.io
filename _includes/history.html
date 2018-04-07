@@ -1,34 +1,48 @@
+{% case include.link %}
+{% when "apmo" %}
+{%-assign base="/" -%}
+{%- assign apmo="" -%}
+{% else%}
+{% assign base="" %}
+{% assign apmo="/apmo.html" %}
+{%endcase%}
+
 {%- assign name=include.name -%}
 {%- assign imohistory = site.data.imo-korea | where:"korname",name|map:"year"|sort -%}
 {%- assign cgmohistory = site.data.cgmo-korea | where:"korname",name|map:"year"|sort -%}
 {%- assign rmmhistory = site.data.rmm-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign apmohistory = site.data.apmo-korea | where:"korname",name|map:"year"|sort -%}
 {%- assign imoteacher = site.data.teacher | where:"name",name |sort:"year" -%}
 {%- assign cgmoteacher = site.data.cgmoteacher | where:"name",name|sort:"year" -%}
 {%- assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" -%}
 
 {% assign output="" | split:"" %}
 {%- for y in imohistory -%}
-{% capture h %}<a class="history {{y}}" href="#IMO{{y}}" >IMO{{y}}</a>{% endcapture %}
+{% capture h %}<a class="history {{y}}" href="{{base}}#IMO{{y}}" >IMO{{y}}</a>{% endcapture %}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for i in imoteacher -%}
-{% capture h %}<a class="history {{i.year}}" href="#IMO{{i.year}}">IMO{{i.year}}{{i.role}}</a>{%endcapture%}
+{% capture h %}<a class="history {{i.year}}" href="{{base}}#IMO{{i.year}}">IMO{{i.year}}{{i.role}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for y in rmmhistory -%}
-{% capture h %}<a class="history {{y}}" href="#RMM{{y}}">RMM{{y}}</a>{%endcapture%}
+{% capture h %}<a class="history {{y}}" href="{{base}}#RMM{{y}}">RMM{{y}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for i in rmmteacher -%}
-{% capture h %}<a class="history {{i.year}}" href="#RMM{{i.year}}">RMM{{i.year}}{{i.role}}</a>{%endcapture%}
+{% capture h %}<a class="history {{i.year}}" href="{{base}}#RMM{{i.year}}">RMM{{i.year}}{{i.role}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for y in cgmohistory -%}
-{% capture h %}<a class="history {{y}}" href="#CGMO{{y}}">CGMO{{y}}</a>{%endcapture%}
+{% capture h %}<a class="history {{y}}" href="{{base}}#CGMO{{y}}">CGMO{{y}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for i in cgmoteacher -%}
-{% capture h %}<a class="history {{i.year}}" href="#CGMO{{i.year}}">CGMO{{i.year}}{{i.role}}</a>{%endcapture%}
+{% capture h %}<a class="history {{i.year}}" href="{{base}}#CGMO{{i.year}}">CGMO{{i.year}}{{i.role}}</a>{%endcapture%}
+{% assign output= output|push: h %}
+{% endfor %}
+{%- for y in apmohistory -%}
+{% capture h %}<a class="history {{y}}" href="{{apmo}}#APMO{{y}}">APMO{{y}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {{output|sort|join:", "}}

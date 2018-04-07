@@ -1,7 +1,22 @@
 ---
 layout: home
 ---
-<h1>한국수학올림피아드 겨울학교</h1>
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="menu">
+  <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+        <a class="nav-link" href="#winter">겨울학교</a>
+</li>
+<li class="nav-item">
+        <a class="nav-link" href="#summer">여름학교</a>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="winter">한국수학올림피아드 겨울학교</h1>
 {%include schoollist.html season="1" %}
-<h1>한국수학올림피아드 여름학교</h1>
+<h1 id="summer">한국수학올림피아드 여름학교</h1>
 {%include schoollist.html season="2" %}
