@@ -11,7 +11,7 @@
   {%-assign p3=site.data.rmm-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign plist=p1|concat:p2|concat:p3|compact|sort|uniq -%}
   {%for p in plist %}
-  <a href="#{{p}}">{{p}}</a>
+  <a href="/index-people.html#{{p}}">{{p}}</a>
   {%-endfor-%}
 </div>
 </div>
