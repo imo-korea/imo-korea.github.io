@@ -7,6 +7,7 @@
 {%- assign imoteacher = site.data.teacher | where:"name",name |sort:"year" -%}
 {%- assign cgmoteacher = site.data.cgmoteacher | where:"name",name|sort:"year" -%}
 {%- assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" -%}
+{%- assign schoolteacher = site.data.schoolteacher | where:"name",name -%}
    {%- assign base = "/" -%}
    {%- assign cgmo = "/cgmo.html" -%}
    {%- assign rmm = "/rmm.html" -%}
@@ -53,4 +54,16 @@
 {% capture h %}<a class="history {{y}}" href="{{apmo}}#APMO{{y}}">APMO{{y}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
+{%- for y in schoolteacher -%}
+{%-   assign year= site.data.school |where:"no",y.no|where:"season",y.season |map: "year" |first -%}
+{% capture h %}
+{%- case y.season -%}
+{% when "1": %}<a class="history {{year}}" href="/winter.html#{{year}}">{{year}}겨울{{y.role}}</a>
+{%- when "2": -%}<a class="history {{year}}" href="/winter.html#{{year}}">{{year}}여름{{y.role}}</a>
+{%- endcase -%}
+{%endcapture%}
+{% assign output=output|push: h%}
+{%endfor%}
+
 {{output|sort|join:", "}}
+
