@@ -6,7 +6,8 @@
 {%- assign people6 = site.data.cgmoteacher |map:"name"-%}
 {%- assign people7 = site.data.rmmteacher |map:"name"-%}
 {%- assign people8 = site.data.schoolteacher |map:"name"-%}
-{%- assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|concat:people7|concat:people8|compact|sort|uniq -%}
+{%- assign people9 = site.data.fkmo-korea|map: "korname" -%}
+{%- assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|concat:people7|concat:people8|concat:people9|compact|sort|uniq -%}
 {%- for p in people -%}
 <div class="row studentindex">
 <div class="col-sm-2 name" id="{{p}}">{{p}}</div>
