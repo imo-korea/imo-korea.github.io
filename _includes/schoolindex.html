@@ -3,7 +3,9 @@
 {%- assign sc3 = site.data.rmm-korea|map: "school" -%}
 {%- assign sc4 = site.data.apmo-korea|map: "school" -%}
 {%- assign sc5 = site.data.fkmo-korea|map: "school" -%}
-{%- assign sc= sc1 |concat:sc2 |concat:sc3|concat:sc4|concat:sc5 | compact|sort|uniq -%}
+{%- assign sc6 = site.data.kmo-korea|map: "school" -%}
+{%- assign sc7 = site.data.kmoj-korea|map: "school" -%}
+{%- assign sc= sc1 |concat:sc2 |concat:sc3|concat:sc4|concat:sc5 |concat:sc6|concat:sc7| compact|sort|uniq -%}
 {%- for s in sc -%}
 <div class="row schoolindex">
 <div class="col-sm-3 school"  id="{{s|remove:" "}}">{{s}}</div>
@@ -13,7 +15,9 @@
   {%-assign p3=site.data.rmm-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign p4=site.data.apmo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign p5=site.data.fkmo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
-  {%-assign plist=p1|concat:p2|concat:p3|concat:p4|concat:p5|compact|sort|uniq -%}
+  {%-assign p6=site.data.kmo-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
+  {%-assign p7=site.data.kmoj-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
+  {%-assign plist=p1|concat:p2|concat:p3|concat:p4|concat:p5|concat:p6|concat:p7|compact|sort|uniq -%}
   {%for p in plist %}
   <a href="/people.html#{{p}}">{{p}}</a>
   {%-endfor-%}
