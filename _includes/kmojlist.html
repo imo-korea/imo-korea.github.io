@@ -1,0 +1,25 @@
+{%- assign years=site.data.kmoj-korea|map:"year"|sort|uniq -%}
+{%- for i in years -%}
+<div class="row alert alert-success">
+<div class="col-sm-3" id="KMOJ{{i}}">
+{{i}}년 {{i|minus:1986}}회
+  </strong></div>
+  <div class="col-sm-4 text-truncate"></div>
+  <div class="col-sm-5 text-sm-right" >
+</div>
+  </div> <!--row for year -->
+
+   {%- assign students = site.data.kmoj-korea |where:"year",i| group_by:"award" -%}
+   {%- for item in students -%}
+   <div class="student">
+   <div class="row">
+   <div class="col-sm-2">{{item.name}}</div>
+   <div class="col-sm-10">
+     {%- for s in item.items -%}
+     {% include linkpeople.html name=s.korname aff=s.school %}
+     {% endfor %}
+   </div>
+   </div> <!-- row --> 
+   </div>
+   {%-endfor -%}
+{%- endfor -%}

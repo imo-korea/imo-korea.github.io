@@ -5,6 +5,8 @@
 {%- assign rmmhistory = site.data.rmm-korea | where:"korname",name|map:"year"|sort -%}
 {%- assign apmohistory = site.data.apmo-korea | where:"korname",name|map:"year"|sort -%}
 {%- assign fkmohistory = site.data.fkmo-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign kmohistory = site.data.kmo-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign kmojhistory = site.data.kmoj-korea | where:"korname",name|map:"year"|sort -%}
 {%- assign imoteacher = site.data.teacher | where:"name",name |sort:"year" -%}
 {%- assign cgmoteacher = site.data.cgmoteacher | where:"name",name|sort:"year" -%}
 {%- assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" -%}
@@ -14,6 +16,8 @@
    {%- assign rmm = "/rmm.html" -%}
    {%- assign apmo = "/apmo.html" -%}
    {%- assign fkmo = "/fkmo.html" -%}
+   {%- assign kmo = "/kmo.html" -%}
+   {%- assign kmoj = "/kmoj.html" -%}
 {%- case page.url -%}
 {%- when "/": -%}
    {%- assign base = "" -%}
@@ -27,6 +31,10 @@
    {%- assign apmo = "" -%}
 {%- when "/fkmo.html" -%}
    {%- assign fkmo = "" -%}
+{%- when "/kmo.html" -%}
+   {%- assign kmo = "" -%}
+{%- when "/kmoj.html" -%}
+   {%- assign kmoj = "" -%}
 {%- endcase -%}
 
 {% assign output="" | split:"" %}
@@ -60,6 +68,14 @@
 {% endfor %}
 {%- for y in fkmohistory -%}
 {% capture h %}<a class="history {{y}}" href="{{fkmo}}#FKMO{{y}}">FKMO{{y}}</a>{%endcapture%}
+{% assign output= output|push: h %}
+{% endfor %}
+{%- for y in kmohistory -%}
+{% capture h %}<a class="history {{y}}" href="{{kmo}}#KMO{{y}}">KMO{{y}}</a>{%endcapture%}
+{% assign output= output|push: h %}
+{% endfor %}
+{%- for y in kmojhistory -%}
+{% capture h %}<a class="history {{y}}" href="{{kmoj}}#KMOJ{{y}}">KMOJ{{y}}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for y in schoolteacher -%}
