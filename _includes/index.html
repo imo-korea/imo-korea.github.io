@@ -1,15 +1,15 @@
-{%- assign people1 = site.data.imo-korea|map: "korname"-%}
-{%- assign people2 = site.data.cgmo-korea|map: "korname"-%}
-{%- assign people3 = site.data.rmm-korea|map: "korname" -%}
-{%- assign people4 = site.data.apmo-korea|map: "korname" -%}
-{%- assign people5 = site.data.teacher |map:"name"-%}
-{%- assign people6 = site.data.cgmoteacher |map:"name"-%}
-{%- assign people7 = site.data.rmmteacher |map:"name"-%}
-{%- assign people8 = site.data.schoolteacher |map:"name"-%}
-{%- assign people9 = site.data.fkmo-korea|map: "korname" -%}
-{%- assign people10 = site.data.kmo-korea|map: "korname" -%}
-{%- assign people11 = site.data.kmoj-korea|map: "korname" -%}
-{%- assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|concat:people7|concat:people8|concat:people9|concat:people10|concat:people11|compact|sort|uniq -%}
+{%- assign people1 = site.data.imo-korea|map: "korname" |uniq-%}
+{%- assign people2 = site.data.cgmo-korea|map: "korname" |uniq-%}
+{%- assign people3 = site.data.rmm-korea|map: "korname" |uniq -%}
+{%- assign people4 = site.data.apmo-korea|map: "korname" |uniq -%}
+{%- assign people5 = site.data.teacher |map:"name" |uniq-%}
+{%- assign people6 = site.data.cgmoteacher |map:"name" |uniq-%}
+{%- assign people7 = site.data.rmmteacher |map:"name" |uniq-%}
+{%- assign people8 = site.data.schoolteacher |map:"name" |uniq-%}
+{%- assign people9 = site.data.fkmo-korea|map: "korname" |uniq -%}
+{%- assign people10 = site.data.kmo-korea|map: "korname" |uniq -%}
+{%- assign people11 = site.data.kmoj-korea|map: "korname"  |uniq -%}
+{%- assign people = people1|concat:people2|concat:people3|concat:people4|concat:people5|concat:people6|concat:people7|concat:people8|concat:people9|concat:people10|concat:people11|compact|uniq|sort -%}
 {%- for p in people -%}
 <div class="row studentindex">
 <div class="col-sm-2 name" id="{{p}}">{{p}}</div>
