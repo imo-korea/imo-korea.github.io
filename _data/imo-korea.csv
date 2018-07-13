@@ -1,4 +1,10 @@
 year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,problem6,total,rank,award,id
+2018,Hongnyung,Kim,김홍녕,서울과학고,7,7,0,7,7,4,32,27,Gold medal,28256
+2018,Dain,Kim,김다인,서울과학고,7,7,0,7,7,3,31,34,Gold medal,27724
+2018,Seungho,Song,송승호,서울과학고,7,7,3,7,7,0,31,34,Gold medal,28258
+2018,Song Un,Lee,이송운,서울과학고,7,7,0,7,7,0,28,87,Silver medal,27727
+2018,Ji Won,Kang,강지원,서울과학고,7,7,0,7,7,0,28,87,Silver medal,28253
+2018,Youngjun,Cho,조영준,서울과학고,7,7,0,7,1,5,27,111,Silver medal,28260
 2017,Jeonghyun,Ahn,안정현,서울과학고,7,7,1,7,0,7,29,7,Gold medal,27726
 2017,Seungyoon,Baek,백승윤,서울과학고,7,4,0,7,7,2,27,29,Gold medal,27725
 2017,Kyu Hyeon,Choi,최규현,서울과학고,7,7,0,7,7,0,28,14,Gold medal,27728
@@ -163,7 +169,7 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 1991,Jong Hyun,Shin,신종현,서울과학고,4,0,0,2,7,1,14,186,Honourable mention,2896
 1990,Tae-Jin,Kim,김태진,서울과학고,0,7,1,4,4,1,17,131,Bronze medal,2531
 1990,Bong-Gyun,Koh,고봉균,오현고,0,2,2,1,7,0,12,201,Honourable mention,2605
-1990,Myung,Kwang Byun,변명광,학성고,7,4,0,7,4,2,24,63,Silver medal,2464
+1990,Myung Kwang,Byun,변명광,학성고,7,4,0,7,4,2,24,63,Silver medal,2464
 1990,Seung Kyun,Lee,이승균,영동고,3,3,2,3,4,0,15,156,,2560
 1990,Min-Sou,Yi,이민수,영락고,0,0,1,2,1,0,4,295,,2692
 1990,Aakam,Yun,윤아람,서울과학고,0,0,2,3,2,0,7,266,,2669
