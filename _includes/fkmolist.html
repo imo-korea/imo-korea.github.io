@@ -15,10 +15,11 @@
    <div class="row">
    <div class="col-sm-2">{{item.name}}</div>
    <div class="col-sm-10">
-     {%- for s in item.items -%}
-     {%- if item.name!= "장려상" -%}
+     {% for s in item.items %}
+     
+     {% if item.name!= "장려상" %}
    <div class="student2">
-     {%- endif -%}
+     {% endif %}
        {% include linkpeople.html name=s.korname aff=s.school %}
      {% if item.name!= "장려상" %}
        <small class="small">{%-include history.html link="apmo" name=s.korname-%}</small>
