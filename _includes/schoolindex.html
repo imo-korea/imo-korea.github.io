@@ -19,7 +19,7 @@
   {%-assign p7=site.data.kmoj-korea | where:"school",s | map:"korname"|compact|sort|uniq-%}
   {%-assign plist=p1|concat:p2|concat:p3|concat:p4|concat:p5|concat:p6|concat:p7|compact|sort|uniq -%}
   {%for p in plist %}
-  <a href="/people.html#{{p}}">{{p}}</a>
+  <a href="/people.html#{{p}}" class="name">{{p}}</a>
   {%-endfor-%}
 </div>
 </div>
