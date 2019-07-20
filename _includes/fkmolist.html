@@ -31,6 +31,8 @@
               {%- if st.website -%}
        <a href="{{st.website}}">{%-endif-%}{{st.aff|strip_html}}{%-
        if st.website -%}</a>{%-endif-%}
+	 {%- if st.mathgen -%}
+	 <a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id={{st.mathgen}}">🎓</a>{%-endif-%}
      </div>
      </div>
      {%-endif -%}
