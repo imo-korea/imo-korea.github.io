@@ -25,14 +25,12 @@
        <small class="small">{%-include history.html link="apmo" name=s.korname-%}</small>
 	 {%- assign st=site.data.people|where:"name",s.korname|first-%}
        
-     {%- if st -%}
+     {%- if st and st.aff -%}
      <div class="row">
      <div class="col-sm-8 offset-sm-4 small">
               {%- if st.website -%}
        <a href="{{st.website}}">{%-endif-%}{{st.aff|strip_html}}{%-
        if st.website -%}</a>{%-endif-%}
-	 {%- if st.mathgen -%}
-	 <a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id={{st.mathgen}}">🎓</a>{%-endif-%}
      </div>
      </div>
      {%-endif -%}
