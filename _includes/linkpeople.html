@@ -1,1 +1,5 @@
-<a href="/people.html#{{include.name}}" class="name">{{include.name}}</a> {% if include.aff %}<a href="/school.html#{{include.aff|remove:" "}}" class="aff">({{include.aff}})</a>{% endif %}
+<a href="/people.html#{{include.name}}" class="name">{{include.name}}</a>
+{% assign st =  site.data.people|where: "name",include.name |first %}
+{% if st and st.mathgen %}
+<a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id={{st.mathgen}}">🎓</a> {%endif%}
+{% if include.aff %}<a href="/school.html#{{include.aff|remove:" "}}" class="aff">({{include.aff}})</a>{% endif %}
