@@ -5,7 +5,14 @@
     {{i.year}}년 {{i.year|minus: 1959}}회
     {%- if i.website -%}</a>{% endif %}</strong></div>
   <div class="col-sm-4 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
-  <div class="col-sm-5 text-right" ><a href="http://www.imo-official.org/year_country_r.aspx?year={{i.year}}">{{ i.teams |append:"개" | default: ""}} 참가국 중 {{i.ranking}}위</a></div>
+  <div class="col-sm-5 text-right" ><a href="http://www.imo-official.org/year_country_r.aspx?year={{i.year}}">{{ i.teams |append:"개" | default: ""}} 참가국 중 {{i.ranking}}위</a>
+    {%- if i.story -%}
+    {% assign stw = i.story | split: "|" %}
+    {% for site in stw %}
+    <a href="{{site}}">[후기]</a>
+    {%endfor%}
+    {%- endif -%}
+  </div>
   </div> <!--row for year -->
 
   <!-- 단장/부단장/참관인 -->
