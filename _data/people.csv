@@ -6,10 +6,11 @@ hide,name,aff,website,mathgen
 ,권수현,,https://sites.google.com/site/suehyunkwon/,
 ,권영대,SK 텔레콤 Quantum Tech. Lab.,,
 ,권재균,영남대학교 전자공학과 부교수,https://dicom.yu.ac.kr,
-,김다노,서울대학교 수리과학부 부교수,https://sites.google.com/view/kimdano,111361
+,김다노,서울대학교 수리과학부 교수,https://sites.google.com/view/kimdano,111361
 ,김도한,,,62391
 ,김린기,인하대 수학과 조교수,https://sites.google.com/view/ringikim/home,243020
 ,김명환,서울대학교 수리과학부 명예교수/상산고 교장,,10689
+,김범수,미국 Williams College 경제학과 조교수,https://www.bumsoo-kim.com,
 ,김상현,KIAS 수학부 교수,http://cayley.kr/,126015
 ,김홍식,Moloco - Sr. Data Science Manager,https://www.linkedin.com/in/hongsik-kim-58b036166/?originalSubdomain=kr,
 ,김홍오,,,9755
@@ -31,6 +32,7 @@ hide,name,aff,website,mathgen
 ,민준철,서울대병원 어린이병원 소아흉부외과 입원전담교수,https://www.snuh.org/blog/83201/career.do?dr_cd=83201
 ,문명호,,,7215
 ,박두성,독일 University of Wuppertal 박사후연구원,https://www2.math.uni-wuppertal.de/~park/,294245
+,박성기,미국 프린스턴대학교 및 IAS의 Veblen Research Instructor,https://sites.google.com/view/sunggipark/,
 ,박영한,Moloco - Senior Applied Scientist,https://www.linkedin.com/in/younghan-park-aab7164a,177001
 ,박정근,건국대 스마트운행체공학과 교수,http://smartvehicle.konkuk.ac.kr/professorDetail.do?siteId=SMARTVEHICLE&proSeq=148&menuSeq=2672&curPage=0&pageNum=1&profId=15883354,
 ,박종원,미국 GTS - Head of Quantitative Research / Head of Factor Strategies in Options,https://www.linkedin.com/in/trlogos/,
@@ -41,7 +43,7 @@ hide,name,aff,website,mathgen
 ,박현정,미국 Google - Senior Software Engineer,https://www.linkedin.com/in/hyunjung/,
 ,박희진,한양대학교 컴퓨터공학부 교수,http://isa.hanyang.ac.kr/index.php/members/,162502
 ,변명광,삼성전자 수석연구원,https://kr.linkedin.com/in/myung-kwang-byun-439414144,
-,서인석,서울대학교 수리과학부 조교수,http://www.math.snu.ac.kr/~insuk.seo/,246588
+,서인석,서울대학교 수리과학부 부교수,http://www.math.snu.ac.kr/~insuk.seo/,246588
 ,서지혜,독일 Zyse.me beonD GmbH - Data Scientist,https://www.linkedin.com/in/jihyeseo/,168115
 ,서준규,미국 UC Santa Cruz 수학과 부교수,https://www.math.ucsc.edu/faculty-research/regular.php?uid=jusuh,127242
 ,송용수,서울대 컴퓨터공학과 조교수,https://yongsoosong.github.io,
@@ -49,15 +51,15 @@ hide,name,aff,website,mathgen
 ,신석우,버클리대학 수학과 교수,https://math.berkeley.edu/~swshin/,137202
 ,신희성,인하대 수학과 교수,https://profile.hshin.info,125703
 ,신종화,KAIST 신소재공학과 부교수,http://apmd.kaist.ac.kr/index.php/professor/,
-,신진우,KAIST AI대학원/전기및전자공학부 부교수,https://alinlab.kaist.ac.kr/shin.html,
+,신진우,KAIST AI대학원/전기및전자공학부 석좌교수,https://alinlab.kaist.ac.kr/shin.html,
 ,안주용,미국 Amazon - Applied Scientist,https://www.linkedin.com/in/andrew-ahn-b633248a/,
 ,안형준,Moloco - Applied Scientist,https://www.linkedin.com/in/hyoung-jun-ahn-929a421b/,185890
 ,양제하,미국 Two Sigma - Quantitative Researcher,https://www.linkedin.com/in/jeha-yang-901512126/,
 ,오규진,미국 Columbia University의 Ritt Assistant Professor,https://math.columbia.edu/~gyujinoh/,
 ,오병권,,,45048
-,엄상일,IBS 이산수학그룹 CI 및 KAIST 수리과학과 교수,https://dimag.ibs.re.kr/home/sangil/,92455
+,엄상일,IBS 이산수학그룹 CI,https://dimag.ibs.re.kr/home/sangil/,92455
 ,우지철,미국 Foreside Fund Services LLC,,180666
-,윤여일,한국 A. T. Kearney,https://www.linkedin.com/in/yeoil-yoon-196923a9/,
+,윤여일,한국 이팝소프트,https://www.linkedin.com/in/yeoil-yoon-196923a9/,
 ,유화종,서울대 자유전공학부 조교수,https://sites.google.com/site/hwajong/home,
 ,유호석,,,38307
 ,유환철,World Quant 한국지사,https://www.linkedin.com/in/hwanchul-yoo-53a17922/,163065
@@ -70,17 +72,17 @@ hide,name,aff,website,mathgen
 ,이승균,성균관대 Global Biomedical Engineering (BME)학과  조교수  및  기초과학연구원 뇌과학이미징연구단,http://www.seungkyunlee.com,
 ,이승명,스트리미 최고기술책임자,,
 ,이승준,부산대학교 전기컴퓨터공학부 전기공학전공 조교수,https://ece.pusan.ac.kr/ece/40578/subview.do?enc=Zm5jdDF8QEB8JTJGcG51UHJvZmwlMkZlY2UlMkYxMzA1JTJGMTE2MzclMkZhcnRjbFZpZXcuZG8lM0ZmaW5kVHlwZSUzRCUyNmZpbmRXb3JkJTNEJTI2cGFnZSUzRDElMjY%3D,
-,이승진,서울대 수리과학부 조교수,https://sites.google.com/site/lsjin1986/,175854
+,이승진,서울대 수리과학부 부교수,https://sites.google.com/site/lsjin1986/,175854
 ,이은수,,,76772
 ,이승협,미국 Cornerstone Research,https://www.cornerstone.com/Staff/Seunghyup-Lee,
 ,이준성,성균관대 및 기초과학연구원 뇌과학이미징연구단 Principal Researcher,,
 ,이준복,,,95683
-,이준경,한양대 수학과 조교수,https://sites.google.com/site/joonkyungleemaths/,237874
+,이준경,연세대 수학과 조교수,https://sites.google.com/site/joonkyungleemaths/,237874
 ,이준엽,,,33479
-,이중범,미국 The D. E. Shaw Group - Quant Analyst,https://www.linkedin.com/in/choongbum-lee-96351b60,166634
+,이중범,미국 Millennium의 Portfolio Manager,https://www.linkedin.com/in/choongbum-lee-96351b60,166634
 ,이지운,KAIST 수리과학과 교수,https://mathsci.kaist.ac.kr/~jioon/,237363
-,이호주,전북대학교 수학과 조교수,https://cosmogeometer.wordpress.com/cv/,156637
-,이해강,미국 University of South Carolina의 Darla Moore School of Business의 조교수,https://sites.google.com/view/haekanglee,
+,이호주,,https://cosmogeometer.wordpress.com/cv/,156637
+,이해강,고려대학교 경영대학 조교수,https://sites.google.com/view/haekanglee,
 ,임선규,미국 Google,https://www.linkedin.com/in/shawn-lim-ab8a61103/,
 ,임보해,KAIST 수리과학과 교수,http://mathsci.kaist.ac.kr/~imbh/,84428
 ,임성진,University of California Merced 전기전자및전산학과 부교수,http://faculty.ucmerced.edu/sim3/,172263
@@ -90,7 +92,7 @@ hide,name,aff,website,mathgen
 ,정교민,서울대 전기정보공학부 교수,http://ee.snu.ac.kr/faculty/professor?mode=view&profid=p805,
 ,정성택,삼성전자 신사업TF 부사장,https://www.linkedin.com/in/taekchung/,
 ,정인지,서울대 수리과학부 조교수,http://www.math.snu.ac.kr/~injee_j/,
-,정준혁,미국 브라운대학 수학과 조교수,https://sites.google.com/brown.edu/junehyuk/about,188464
+,정준혁,미국 브라운대학 수학과 부교수,https://sites.google.com/brown.edu/junehyuk/about,188464
 ,조세익,스노우볼투자자문 대표이사,https://snowballasset.modoo.at,
 ,조철현,서울대 수학과 교수,http://www.math.snu.ac.kr/~chocheol/,81675
 ,진교택,,,4497
@@ -101,7 +103,7 @@ hide,name,aff,website,mathgen
 ,한상근,,,10676
 ,허충길,서울대 컴퓨터공학부 교수,https://sf.snu.ac.kr/gil.hur/,
 ,현윤석,인하대 수학과 조교수,https://p-yshyun21.inha.ac.kr/p-yshyun21/index.do,156165
-,홍세린,미국 미시간대학 Post-doctoral Assistant Professor,http://www-personal.umich.edu/~serinh/,238801
+,홍세린,미국 아리조나대학 수학과 조교수,https://math.arizona.edu/~serinh/,238801
 ,홍한솔,연세대 수학과 조교수,https://sites.google.com/view/hansolhongmath/,187896
 ,황현섭,미국 Citadel LLC - Senior Quantitative Researcher,https://www.linkedin.com/in/hyun-sub-hwang-0b3a6a103/,
 ,허예솔,미국 Federal Reserve Board의 Economist,https://sites.google.com/site/yesolhuh/,
