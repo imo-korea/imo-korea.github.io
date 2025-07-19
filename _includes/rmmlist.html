@@ -1,7 +1,7 @@
 {%- for i in site.data.rmm -%}
 <div class="row alert alert-success">
   <div class="col-sm-3" id="RMM{{i.year}}"><strong><a 
-    href="http://rmms.lbi.ro/rmm{{i.year}}/" target="rmm">{{i.year}}년 {{i.year|minus:2008}}회</a></strong></div>
+    href="https://rmms.lbi.ro/rmm{{i.year}}/" target="rmm">{{i.year}}년 {{i.year|minus:2008}}회</a></strong></div>
   <div class="col-sm-4 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>
   <div class="col-sm-5 text-sm-right" ><a href="http://rmms.lbi.ro/rmm{{i.year}}/index.php?id=results_math">{{ i.teams |append:"개" | default: ""}} 참가팀 중 {{i.ranking}}위</a></div>
   </div> <!--row for year -->
