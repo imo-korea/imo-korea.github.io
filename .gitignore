@@ -1,0 +1,22 @@
+# Jekyll build output
+_site
+.jekyll-cache
+.sass-cache
+
+# Ruby / Bundler (Gemfile is tracked; lockfile is local-only)
+Gemfile.lock
+.bundle
+vendor/
+
+# Local helper scripts and binary source files (not part of the site)
+_data/apmo.py
+_data/fkmo.py
+_data/school.numbers
+_data/schoolteacher.numbers
+
+# Link-checker script and output
+link.html
+linkcheck
+
+# macOS
+.DS_Store
