@@ -2,20 +2,20 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2025,Kyungjun,Park,박경준,서울과학고,7,7,7,7,7,2,37,9,Gold medal,34548
 2025,Wooju,Ham,함우주,서울과학고,7,7,7,7,7,1,36,12,Gold medal,34553
 2025,Hyeonjun,Lee,이현준,서울과학고,7,7,7,7,7,1,36,28,Gold medal,35414
-2025,Hyewon,Yoon,윤혜원,숙명여중,7,7,7,7,7,0,35,35,Gold medal,35413
+2025,Hyewon,Yoon,윤혜원b,숙명여중,7,7,7,7,7,0,35,35,Gold medal,35413
 2025,Hyunjun,Jang,장현준,서울과학고,7,7,7,7,3,0,31,91,Silver medal,35415
-2025,Hyungjune,Cho,조형준,서울과학고,7,7,7,7,0,0,28,148,Silver medal,35416
+2025,Hyungjune,Cho,조형준b,서울과학고,7,7,7,7,0,0,28,148,Silver medal,35416
 2024,Hyeongjoe,Chu,주형조,서울과학고,7,2,7,7,7,5,35,5,Gold medal,34550
 2024,Kyungjun,Park,박경준,서울과학고,7,7,2,7,0,7,30,29,Gold medal,34548
 2024,Youngbeom,Jin,진영범,서울과학고,7,7,6,7,0,0,27,76,Silver medal,34551
 2024,Yuchan,Jung,정유찬,서울과학고,7,7,1,7,0,5,27,76,Silver medal,34549
 2024,Wooju,Ham,함우주,서울과학고,7,7,0,7,0,4,25,90,Silver medal,34553
-2024,Hyunwoo,Choi,최현우,서울과학고,7,7,2,7,0,1,24,100,Silver medal,34552
+2024,Hyunwoo,Choi,최현우b,서울과학고,7,7,2,7,0,1,24,100,Silver medal,34552
 2023,Junhwi,Bae,배준휘,서울과학고,7,7,7,7,7,7,42,1,Gold medal,31196
 2023,Woojin,Choi,최우진,서울과학고,7,5,7,7,7,7,40,9,Gold medal,31199
 2023,Gyudong,Lee,이규동,서울과학고,7,7,7,7,7,2,37,12,Gold medal,31197
 2023,Youngbeom,Jin,진영범,서울과학고,7,7,7,7,7,0,35,28,Gold medal,32004
-2023,Jihoo,Lee,이지후,서울과학고,7,7,7,7,3,0,31,55,Silver medal,33611
+2023,Jihoo,Lee,이지후b,서울과학고,7,7,7,7,3,0,31,55,Silver medal,33611
 2023,Yuchan,Jung,정유찬,서울과학고,7,7,7,7,2,0,30,71,Silver medal,32003
 2022,Junhwi,Bae,배준휘,서울과학고,7,7,7,7,7,1,36,23,Gold medal,31196
 2022,Woojin,Choi,최우진,서울과학고,7,7,7,7,7,5,40,12,Gold medal,31199
@@ -24,7 +24,7 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2022,Donghyun,Kim,김동현a,서울과학고,7,7,2,7,7,1,31,68,Silver medal,31935
 2022,Gyudong,Lee,이규동,서울과학고,7,7,7,7,6,4,38,18,Gold medal,31197
 2021,Junhwi,Bae,배준휘,서울과학고,7,0,0,7,7,7,28,32,Gold medal,31196
-2021,Minkyu,Choi,최민규,서울과학고,7,1,1,7,7,1,24,48,Gold medal,31198
+2021,Minkyu,Choi,최민규c,서울과학고,7,1,1,7,7,1,24,48,Gold medal,31198
 2021,Woojin,Choi,최우진,서울과학고,7,0,0,7,0,7,21,105,Silver medal,31199
 2021,Eunsu,Hur,허은수,서울과학고,5,0,1,7,7,7,27,41,Gold medal,31200
 2021,Jimin,Kim,김지민,서울과학고,7,1,7,7,7,7,36,3,Gold medal,31195
@@ -32,10 +32,10 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2020,Eunsu,Hur,허은수,서울과학고,7,7,7,7,7,1,36,4,Gold medal,30363
 2020,Donghyun,Kim,김동현a,서울과학고,7,7,4,3,1,0,22,181,Bronze medal,30360
 2020,Jimin,Kim,김지민,서울과학고,7,7,0,7,7,1,29,59,Silver medal,30362
-2020,Junsu,Kim,김준수,서울과학고,7,2,0,7,7,1,24,140,Silver medal,30361
+2020,Junsu,Kim,김준수c,서울과학고,7,2,0,7,7,1,24,140,Silver medal,30361
 2020,Sangyoun,Ko,고상연,서울과학고,7,7,7,7,7,1,36,4,Gold medal,29747
 2020,Minjae,Kwon,권민재,서울과학고,7,2,4,7,7,1,28,86,Silver medal,30359
-2019,Ji Won,Kang,강지원,서울과학고,7,6,1,7,7,7,35,18,Gold medal,28253
+2019,Ji Won,Kang,강지원b,서울과학고,7,6,1,7,7,7,35,18,Gold medal,28253
 2019,Sangyoun,Ko,고상연,서울과학고,7,6,4,7,7,7,38,11,Gold medal,29299
 2019,Jimin,Kim,김지민,서울과학고,7,7,7,7,7,1,36,15,Gold medal,29302
 2019,Hongnyung,Kim,김홍녕,서울과학고,7,6,7,7,7,1,35,18,Gold medal,28256
@@ -45,7 +45,7 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2018,Dain,Kim,김다인,서울과학고,7,7,0,7,7,3,31,34,Gold medal,27724
 2018,Seungho,Song,송승호,서울과학고,7,7,3,7,7,0,31,34,Gold medal,28258
 2018,Song Un,Lee,이송운,서울과학고,7,7,0,7,7,0,28,87,Silver medal,27727
-2018,Ji Won,Kang,강지원,서울과학고,7,7,0,7,7,0,28,87,Silver medal,28253
+2018,Ji Won,Kang,강지원b,서울과학고,7,7,0,7,7,0,28,87,Silver medal,28253
 2018,Youngjun,Cho,조영준,서울과학고,7,7,0,7,1,5,27,111,Silver medal,28260
 2017,Jeonghyun,Ahn,안정현,서울과학고,7,7,1,7,0,7,29,7,Gold medal,27726
 2017,Seungyoon,Baek,백승윤,서울과학고,7,4,0,7,7,2,27,29,Gold medal,27725
@@ -54,12 +54,12 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2017,Sehun,Kim,김세훈,서울과학고,7,7,0,7,1,7,29,7,Gold medal,27723
 2017,Songun,Lee,이송운,서울과학고,7,7,0,7,0,7,28,14,Gold medal,27727
 2016,Seungyoon,Baek,백승윤,서울과학고,7,7,1,7,1,2,25,78,Silver medal,26750
-2016,Jaewon,Choi,최재원,서울과학고,7,7,7,7,7,7,42,1,Gold medal,26760
+2016,Jaewon,Choi,최재원d,서울과학고,7,7,7,7,7,7,42,1,Gold medal,26760
 2016,Eui Cheon,Hong,홍의천,세종과학고,7,7,7,7,7,7,42,1,Gold medal,26761
 2016,Junghun,Ju,주정훈,서울과학고,7,7,7,7,7,7,42,1,Gold medal,26759
 2016,Sehun,Kim,김세훈,서울과학고,7,6,1,7,7,3,31,23,Gold medal,26749
 2016,Youseong,Lee,이유성,서울과학고,7,7,0,7,4,0,25,78,Silver medal,26758
-2015,Jaewon,Choi,최재원,서울과학고,7,0,7,7,3,3,27,32,Gold medal,25960
+2015,Jaewon,Choi,최재원d,서울과학고,7,0,7,7,3,3,27,32,Gold medal,25960
 2015,Junghun,Ju,주정훈,서울과학고,7,5,7,7,7,7,40,3,Gold medal,25947
 2015,Chaewon,Kim,김채원,서울과학고,7,2,1,7,1,0,18,140,Bronze medal,25944
 2015,Jaehyung,Kim,김재형,서울과학고,7,7,1,7,7,6,35,5,Gold medal,25932
