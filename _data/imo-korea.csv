@@ -68,7 +68,7 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2014,Hong-Kwon,Jo,조홍권,서울과학고,7,7,0,7,7,0,28,50,Silver medal,24887
 2014,Dong Ryul,Kim,김동률,서울과학고,7,7,7,7,3,7,38,7,Gold medal,24527
 2014,Jaehyung,Kim,김재형,서울과학고,7,1,0,7,7,2,24,102,Silver medal,24883
-2014,Minhyuk,Kim,김민혁,서울과학고,7,7,7,7,2,0,30,36,Gold medal,24882
+2014,Minhyuk,Kim,김민혁b,서울과학고,7,7,7,7,2,0,30,36,Gold medal,24882
 2014,San Ha,Lee,이산하,서울과학고,7,0,7,7,7,0,28,50,Silver medal,24886
 2014,Young Keun,Song,송영근,서울과학고,7,7,2,7,1,0,24,102,Silver medal,24884
 2013,Eunsoo,Jee,지은수,서울과학고,7,6,7,7,7,7,41,1,Gold medal,23249
@@ -76,12 +76,12 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2013,Seungyeon,Kang,강승연,서울과학고,7,4,7,7,1,0,26,110,Silver medal,23245
 2013,Dong Ryul,Kim,김동률,서울과학고,7,7,3,7,7,7,38,5,Gold medal,23185
 2013,Jongwon,Lee,이종원b,민족사관고,7,7,0,7,7,4,32,30,Gold medal,23244
-2013,Sung Jin,Park,박성진,서울과학고,7,7,6,7,7,1,35,10,Gold medal,23186
+2013,Sung Jin,Park,박성진b,서울과학고,7,7,6,7,7,1,35,10,Gold medal,23186
 2012,Jaewon,Chang,장재원,서울과학고,7,7,4,6,7,7,38,4,Gold medal,21799
 2012,Dong Hyo,Kim,김동효,서울과학고,7,7,3,7,7,0,31,24,Gold medal,21803
 2012,Dong Ryul,Kim,김동률,서울과학고,7,7,7,5,7,7,40,2,Gold medal,21802
 2012,Hanwool,Moon,문한울,세종과학고,7,7,4,7,7,4,36,9,Gold medal,21805
-2012,Sung Jin,Park,박성진,서울과학고,7,7,3,7,7,3,34,15,Gold medal,21806
+2012,Sung Jin,Park,박성진b,서울과학고,7,7,3,7,7,3,34,15,Gold medal,21806
 2012,Tae Hwan,Park,박태환,서울과학고,7,7,0,7,7,2,30,27,Gold medal,21807
 2011,Young Jin,Bae,배영진,서울과학고,7,1,1,2,1,0,12,321,Honourable mention,20952
 2011,Jaewon,Chang,장재원,서울과학고,7,2,7,7,7,2,32,13,Gold medal,20960
@@ -134,7 +134,7 @@ year,name,surname,korname,school,problem1,problem2,problem3,problem4,problem5,pr
 2003,Kyeong Su,Choi,최경수,유신고,7,7,0,4,1,0,19,98,Silver medal,7465
 2003,Jaehyeok,Heo,허재혁,서울과학고,2,3,0,7,7,2,21,83,Silver medal,7447
 2003,Serin,Hong,홍세린,서울과학고,7,2,0,7,7,1,24,56,Silver medal,7418
-2003,June Hyuk,Jung,정준혁,서울과학고,7,7,0,7,7,7,35,16,Gold medal,7378
+2003,June Hyuk,Jung,정준혁a,서울과학고,7,7,0,7,7,7,35,16,Gold medal,7378
 2003,Byoung Hyuck,Kim,김병혁,전북과학고,5,7,0,7,2,7,28,38,Silver medal,7402
 2003,Yeo-Il,Yoon,윤여일,서울과학고,7,7,1,7,7,1,30,26,Gold medal,7388
 2002,Kyeong Su,Choi,최경수,유신고,2,6,1,7,6,3,25,78,Silver medal,6965
