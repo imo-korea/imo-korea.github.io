@@ -1,12 +1,12 @@
 
 {%- assign name=include.name -%}
-{%- assign imohistory = site.data.imo-korea | where:"korname",name|map:"year"|sort -%}
-{%- assign cgmohistory = site.data.cgmo-korea | where:"korname",name|map:"year"|sort -%}
-{%- assign rmmhistory = site.data.rmm-korea | where:"korname",name|map:"year"|sort -%}
-{%- assign apmohistory = site.data.apmo-korea | where:"korname",name|map:"year"|sort -%}
-{%- assign fkmohistory = site.data.fkmo-korea | where:"korname",name|map:"year"|sort -%}
-{%- assign kmohistory = site.data.kmo-korea | where:"korname",name|map:"year"|sort -%}
-{%- assign kmojhistory = site.data.kmoj-korea | where:"korname",name|map:"year"|sort -%}
+{%- assign imohistory = site.data.imo-korea | where:"korname",name | sort:"year" -%}
+{%- assign cgmohistory = site.data.cgmo-korea | where:"korname",name | sort:"year" -%}
+{%- assign rmmhistory = site.data.rmm-korea | where:"korname",name | sort:"year" -%}
+{%- assign apmohistory = site.data.apmo-korea | where:"korname",name | sort:"year" -%}
+{%- assign fkmohistory = site.data.fkmo-korea | where:"korname",name | sort:"year" -%}
+{%- assign kmohistory = site.data.kmo-korea | where:"korname",name | sort:"year" -%}
+{%- assign kmojhistory = site.data.kmoj-korea | where:"korname",name | sort:"year" -%}
 {%- assign imoteacher = site.data.teacher | where:"name",name |sort:"year" -%}
 {%- assign cgmoteacher = site.data.cgmoteacher | where:"name",name|sort:"year" -%}
 {%- assign rmmteacher = site.data.rmmteacher | where:"name",name|sort:"year" -%}
@@ -38,52 +38,52 @@
 {%- endcase -%}
 
 {% assign output="" | split:"" %}
-{%- for y in imohistory -%}
-{% capture h %}<a class="history {{y}}" href="{{base}}#IMO{{y}}" >IMO{{y}}</a>{% endcapture %}
+{%- for r in imohistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{base}}#IMO{{r.year}}" >IMO{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{% endcapture %}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for i in imoteacher -%}
-{% capture h %}<a class="history {{i.year}}" href="{{base}}#IMO{{i.year}}">IMO{{i.year}}{{i.role}}</a>{%endcapture%}
+{% capture h %}<a class="history {{i.year}}" href="{{base}}#IMO{{i.year}}">IMO{{i.year}}{{i.role}}{% if i.school %}({{i.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
-{%- for y in rmmhistory -%}
-{% capture h %}<a class="history {{y}}" href="{{rmm}}#RMM{{y}}">RMM{{y}}</a>{%endcapture%}
+{%- for r in rmmhistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{rmm}}#RMM{{r.year}}">RMM{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for i in rmmteacher -%}
-{% capture h %}<a class="history {{i.year}}" href="{{rmm}}#RMM{{i.year}}">RMM{{i.year}}{{i.role}}</a>{%endcapture%}
+{% capture h %}<a class="history {{i.year}}" href="{{rmm}}#RMM{{i.year}}">RMM{{i.year}}{{i.role}}{% if i.school %}({{i.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
-{%- for y in cgmohistory -%}
-{% capture h %}<a class="history {{y}}" href="{{cgmo}}#CGMO{{y}}">CGMO{{y}}</a>{%endcapture%}
+{%- for r in cgmohistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{cgmo}}#CGMO{{r.year}}">CGMO{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for i in cgmoteacher -%}
-{% capture h %}<a class="history {{i.year}}" href="{{cgmo}}#CGMO{{i.year}}">CGMO{{i.year}}{{i.role}}</a>{%endcapture%}
+{% capture h %}<a class="history {{i.year}}" href="{{cgmo}}#CGMO{{i.year}}">CGMO{{i.year}}{{i.role}}{% if i.school %}({{i.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
-{%- for y in apmohistory -%}
-{% capture h %}<a class="history {{y}}" href="{{apmo}}#APMO{{y}}">APMO{{y}}</a>{%endcapture%}
+{%- for r in apmohistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{apmo}}#APMO{{r.year}}">APMO{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
-{%- for y in fkmohistory -%}
-{% capture h %}<a class="history {{y}}" href="{{fkmo}}#FKMO{{y}}">FKMO{{y}}</a>{%endcapture%}
+{%- for r in fkmohistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{fkmo}}#FKMO{{r.year}}">FKMO{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
-{%- for y in kmohistory -%}
-{% capture h %}<a class="history {{y}}" href="{{kmo}}#KMO{{y}}">KMO{{y}}</a>{%endcapture%}
+{%- for r in kmohistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{kmo}}#KMO{{r.year}}">KMO{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
-{%- for y in kmojhistory -%}
-{% capture h %}<a class="history {{y}}" href="{{kmoj}}#KMOJ{{y}}">KMOJ{{y}}</a>{%endcapture%}
+{%- for r in kmojhistory -%}
+{% capture h %}<a class="history {{r.year}}" href="{{kmoj}}#KMOJ{{r.year}}">KMOJ{{r.year}}{% if r.school %}({{r.school}}){% endif %}</a>{%endcapture%}
 {% assign output= output|push: h %}
 {% endfor %}
 {%- for y in schoolteacher -%}
 {%-   assign year= site.data.school |where:"no",y.no|where:"season",y.season |map: "year" |first -%}
 {% capture h %}
 {%- case y.season -%}
-{% when "1": %}<a class="history {{year}}" href="/winter.html#{{year}}">{{year}}겨울{{y.role}}</a>
-{%- when "2": -%}<a class="history {{year}}" href="/winter.html#{{year}}">{{year}}여름{{y.role}}</a>
+{% when "1": %}<a class="history {{year}}" href="/winter.html#{{year}}">{{year}}겨울{{y.role}}{% if y.aff %}({{y.aff}}){% endif %}</a>
+{%- when "2": -%}<a class="history {{year}}" href="/winter.html#{{year}}">{{year}}여름{{y.role}}{% if y.aff %}({{y.aff}}){% endif %}</a>
 {%- endcase -%}
 {%endcapture%}
 {% assign output=output|push: h%}
