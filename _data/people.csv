@@ -16,7 +16,7 @@ hide,name,aff,website,mathgen
 ,김홍오,,,9755
 ,김병두,뉴질랜드 Victoria University of Wellington 수학과 Lecturer,https://homepages.ecs.vuw.ac.nz/~bdkim/,17072
 ,김서령,서울대학교 수학교육과 명예교수,,6040
-,김석원,미국 Google/YouTube - Group Product Manager,https://www.linkedin.com/in/sukwonkim/,169166
+,김석원,미국 Meta - Head of Product for Facebook Search,https://www.linkedin.com/in/sukwonkim/,169166
 ,김영훈,KIAS 수학부 교수,https://sites.google.com/site/yhkiem/home,46647
 ,김용신,광주지방법원 판사,,
 ,김범식,Moloco,https://www.linkedin.com/in/bumsik-kim-math/,191928
@@ -36,7 +36,7 @@ hide,name,aff,website,mathgen
 ,박성기,미국 프린스턴대학교 및 IAS의 Veblen Research Instructor,https://sites.google.com/view/sunggipark/,
 ,박영한,Moloco - Senior Applied Scientist,https://www.linkedin.com/in/younghan-park-aab7164a,177001
 ,박정근,건국대 항공우주모빌리티공학과 교수,https://aeroeng.konkuk.ac.kr/aeroeng/11837/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZkluZm8lMkZhZXJvZW5nJTJGMTA0JTJGMjA4MjAwMTIlMkZ2aWV3LmRvJTNGc3JjaEN0Z3IlM0QlMjY%3D,
-,박종원,미국 GTS - Head of Quantitative Research / Head of Factor Strategies in Options,https://www.linkedin.com/in/trlogos/,
+,박종원,미국 Squarepoint의 Quantitative Research,https://www.linkedin.com/in/trlogos/,
 ,박지웅,시카고대학 화학과 교수,https://chemistry.uchicago.edu/faculty/jiwoong-park,
 ,박지원,미국 Yale대 Gibbs Assistant Professor,https://sites.google.com/view/jiewonpark,
 ,박진형,KAIST 수리과학과 부교수,https://sites.google.com/site/parkjh13/,
@@ -48,7 +48,7 @@ hide,name,aff,website,mathgen
 ,서지혜,스위스 Dentsply Sirona,https://www.linkedin.com/in/jihye-sofia-seo/,168115
 ,서준규,미국 UC Santa Cruz 수학과 교수,https://www.math.ucsc.edu/people/faculty.php?uid=jusuh,127242
 ,송용수,서울대 컴퓨터공학과 조교수,https://yongsoosong.github.io,
-,송용진,인하대 수학과 교수,http://people.math.inha.ac.kr/~yjsong/,10636
+,송용진,인하대 수학과 명예교수,http://people.math.inha.ac.kr/~yjsong/,10636
 ,신석우,버클리대학 수학과 교수,https://math.berkeley.edu/~swshin/,137202
 ,신희성,인하대 수학과 교수,https://profile.hshin.info,125703
 ,신종화,KAIST 신소재공학과 부교수,https://www.meta-material.org/people/professor,
@@ -68,7 +68,7 @@ hide,name,aff,website,mathgen
 ,윤재문,서울대병원 진료교수,https://www.snuh.org/blog/82609/career.do?hsp_cd=,
 ,윤한샘,한국과학영재학교 수리정보과학부 전임교원,,
 ,오덕순,충남대 수학과 조교수,https://sites.google.com/view/duksoonoh,178042
-,이경용,미국 University of Alabama 수학과 부교수,https://math.ua.edu/people/klee/,122953
+,이경용,미국 University of Alabama 수학과 교수,https://math.ua.edu/people/klee/,122953
 ,이석형,서울대학교 모듈과 공간의 양자구조 연구센터 연구원,http://qsms.math.snu.ac.kr/AboutUs
 ,이승균,성균관대 Global Biomedical Engineering (BME)학과  조교수  및  기초과학연구원 뇌과학이미징연구단,http://www.seungkyunlee.com,
 ,이승명,스트리미 최고기술책임자,,
@@ -93,7 +93,7 @@ hide,name,aff,website,mathgen
 ,정교민,서울대 전기정보공학부 교수,http://milab.snu.ac.kr/kjung/index.html,
 ,정성택,삼성전자 신사업TF 부사장,https://www.linkedin.com/in/taekchung/,
 ,정인지,서울대 수리과학부 조교수,http://www.math.snu.ac.kr/~injee_j/,
-,정준혁,미국 브라운대학 수학과 부교수,https://sites.google.com/brown.edu/junehyuk/about,188464
+,정준혁a,미국 브라운대학 수학과 교수,https://sites.google.com/brown.edu/junehyuk,188464
 ,조세익,스노우볼투자자문 대표이사,https://snowballasset.modoo.at,
 ,조철현,POSTECH 수학과 교수,http://www.math.snu.ac.kr/~chocheol/,81675
 ,진교택,,,4497
@@ -103,9 +103,16 @@ hide,name,aff,website,mathgen
 ,추요한,미국 MIT Sloan School of Management 교수,https://mitsloan.mit.edu/faculty/directory/johan-chu,121470
 ,한상근,,,10676
 ,허충길,서울대 컴퓨터공학부 교수,https://sf.snu.ac.kr/gil.hur/,
-,현윤석,인하대 수학과 조교수,https://p-yshyun21.inha.ac.kr/p-yshyun21/index.do,156165
+,현윤석,고려대 수학과 부교수,https://math.korea.ac.kr/math/member/full-time-professors.do,156165
 ,홍세린,미국 아리조나대학 수학과 조교수,https://math.arizona.edu/~serinh/,238801
-,홍한솔,연세대 수학과 조교수,https://sites.google.com/view/hansolhongmath/,187896
+,홍한솔,연세대 수학과 부교수,https://sites.google.com/view/hansolhongmath/,187896
 ,황현섭,미국 Citadel LLC - Senior Quantitative Researcher,https://www.linkedin.com/in/hyun-sub-hwang-0b3a6a103/,
 ,허예솔,미국 Federal Reserve Board의 Economist,https://sites.google.com/site/yesolhuh/,
 ,허재혁,Qraft Technologies - Team Lead,https://www.linkedin.com/in/jae-hyeok-heo-9250aa144/,
+,김동현h,이화여대 수학과 조교수,https://donghyunkim8.wixsite.com/dhkim,
+,임준혁,미국 예일대 전기컴퓨터공학과 박사후연구원,https://joonhyeokyim.github.io,
+,이종원b,미국 노스웨스턴대 수학과 조교수,https://davidjlee.me,
+,홍의천,Axiom 소프트웨어 엔지니어,https://www.linkedin.com/in/euicheon-hong-8b55472a3/,
+,임동규,미국 BONE Inc. 연구원,https://limathub.github.io,
+,이상훈,홍콩중문대 수학과 박사후연구원,https://sites.google.com/view/sanghoon-lees-homepagege/,
+,지세현,미국 시카고대 수학과 박사과정,https://math.uchicago.edu/~jise/,
