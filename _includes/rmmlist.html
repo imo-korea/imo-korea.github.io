@@ -1,4 +1,5 @@
-{%- for i in site.data.rmm -%}
+{%- assign rmms = site.data.rmm | sort:"year" | reverse -%}
+{%- for i in rmms -%}
 <div class="row alert alert-success">
   <div class="col-sm-3" id="RMM{{i.year}}"><strong><a 
     href="https://rmms.lbi.ro/rmm{{i.year}}/" target="rmm">{{i.year}}년 {{i.year|minus:2008}}회</a></strong></div>

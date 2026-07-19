@@ -1,4 +1,5 @@
-{%- for i in site.data.apmo|sort:"year" -%}
+{%- assign apmos = site.data.apmo | sort:"year" | reverse -%}
+{%- for i in apmos -%}
 <div class="row alert alert-success">
 <div class="col-sm-3" id="APMO{{i.year}}">
   {%- if i.website -%}<a href="{{i.website}}">{%- endif -%}

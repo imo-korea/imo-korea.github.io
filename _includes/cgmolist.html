@@ -1,4 +1,5 @@
-{% for i in site.data.cgmo %}
+{% assign cgmos = site.data.cgmo | sort:"year" | reverse %}
+{% for i in cgmos %}
 <div class="row  alert alert-info" id="CGMO{{i.year}}">
   <div class="col-sm-3"><strong>{{i.year}}년</strong></div>
   <div class="col-sm-9 text-truncate">{{i.country|default:""}} {{i.city|default:""}}</div>

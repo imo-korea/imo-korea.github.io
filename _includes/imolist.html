@@ -1,4 +1,5 @@
-{%- for i in site.data.imo -%}
+{%- assign imos = site.data.imo | sort:"year" | reverse -%}
+{%- for i in imos -%}
 <div class="row alert alert-primary">
   <div class="col-sm-3" id="IMO{{i.year}}"><strong>
     {%- if i.website -%}<a href="{{i.website}}" target="imo">{%endif%}

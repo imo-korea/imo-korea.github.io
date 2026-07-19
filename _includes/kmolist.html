@@ -1,4 +1,4 @@
-{%- assign years=site.data.kmo-korea|map:"year"|sort|uniq -%}
+{%- assign years=site.data.kmo-korea|map:"year"|sort|uniq|reverse -%}
 {%- for i in years -%}
 <div class="row alert alert-success">
 <div class="col-sm-3" id="KMO{{i}}">

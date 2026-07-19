@@ -1,4 +1,4 @@
-{%assign sclist = site.data.school|where:"season",include.season |sort:"year"%}
+{%assign sclist = site.data.school|where:"season",include.season |sort:"year"|reverse%}
 {%-for sc in sclist -%}
 <div class="row alert alert-primary">
   <div class="col-sm-6" id="{{sc.year}}">
